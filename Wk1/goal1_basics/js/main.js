@@ -225,10 +225,12 @@ console.log('------ arrays ----------');
 
  ********************************************/
     var myArray = Array();
-    myArray
-    myArray
-    myArray
-    myArray
+    myArray [0]  = "baseball";
+    myArray [1]  = "football";
+    myArray [2]  = "basketball";
+
+    console.log(myArray[0] + ' '+ myArray[1] + ' '+ myArray[2]);
+
  // conditionals: (definition, indexing, math, if, if-else, if-else if, ternary)
 console.log('------ conditionals ----------');
 
