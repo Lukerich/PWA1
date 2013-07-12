@@ -192,7 +192,7 @@ console.log('------ arrays ----------');
  */
 
     //arrays can hold any data type
-
+    console.log("index 0: ", myArr[0]);
 
 
  /*******************************************
