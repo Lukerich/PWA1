@@ -126,7 +126,14 @@ console.log('------ numbers ----------');
     var myNum = 5;
     console.log("myNum = ", myNum);
 
-    //this decrements right before it is being used
+    myNum++;
+    console.log("myNum = ", myNum);
+
+    myNum--;
+    console.log("myNum = ", myNum);
+
+
+//this decrements right before it is being used
 
     //this decrements after it is used
 
