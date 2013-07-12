@@ -193,10 +193,10 @@ console.log('------ arrays ----------');
 
     //arrays can hold any data type
     console.log("index 0: ", myArr[0]);
-    console.log("index 0: ", myArr[1]);
-    console.log("index 0: ", myArr[2]);
-    console.log("index 0: ", myArr[3]);
-
+    console.log("index 1: ", myArr[1]);
+    console.log("index 2: ", myArr[2]);
+    console.log("index 3: ", myArr[3]);
+    console.log("index 4: ", myArr[4]);
 
  /*******************************************
 
@@ -206,7 +206,8 @@ console.log('------ arrays ----------');
     2.  console.log the sum of all the numbers in an array
 
  ********************************************/
-
+    var myArr = [10,50,100,200];
+    console.log("Student Activity 1: : ", myArr[0] + myArr[1] + myArr[2] + myArr[3]);
 
 
 /*******************************************
