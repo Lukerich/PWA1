@@ -110,12 +110,21 @@ console.log('------ numbers ----------');
     //basic math
     var counter = 10;
     console.log("basic math: ", counter +1);
+    console.log("basic math: ", counter);
 
     //quick operations with "assignment operator" +=, -=, *=, /=, %=
     //one example below, can show more examples with other assignment operators
+    var num1 = 10;
+    var num2 = 5;
+    num1 += num2;
+    // num1 = num1 + num2;
+    console.log("+=: ", num1);
 
 
     //increment or decrement numbers by 1 with ++ or --
+
+    var myNum = 5;
+    console.log("myNum = ", myNum);
 
     //this decrements right before it is being used
 
