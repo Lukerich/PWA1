@@ -98,14 +98,18 @@ console.log('------ strings ----------');
 // numbers (definition, concatenation +, math, numbers & strings)
 console.log('------ numbers ----------');
 
-    var pi = 3.14
-    var piNDP = 314
+    var pi = 3.14;    // decimal
+    var piNDP = 314;  // no decimal
+    var y = 123e5;    // exponent add 5 places  12300000
+    var z = 123e-5    // exponent subtract 5 places 0.00123
 
     // arithmetic operators:  +, -, /, *, % (modulo)
 
 
-    //basic math
 
+    //basic math
+    var counter = 10;
+    console.log("basic math: ", counter +1);
 
     //quick operations with "assignment operator" +=, -=, *=, /=, %=
     //one example below, can show more examples with other assignment operators
