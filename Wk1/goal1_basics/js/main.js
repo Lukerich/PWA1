@@ -224,8 +224,11 @@ console.log('------ arrays ----------');
     3. output array items using string concatenation
 
  ********************************************/
-
-
+    var myArray = Array();
+    myArray
+    myArray
+    myArray
+    myArray
  // conditionals: (definition, indexing, math, if, if-else, if-else if, ternary)
 console.log('------ conditionals ----------');
 
