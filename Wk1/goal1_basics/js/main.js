@@ -224,7 +224,7 @@ console.log('------ arrays ----------');
     3. output array items using string concatenation
 
  ********************************************/
-    var myArray = Array();
+    var myArray = new Array();
     myArray [0]  = "baseball";
     myArray [1]  = "football";
     myArray [2]  = "basketball";
