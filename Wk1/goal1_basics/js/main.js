@@ -98,6 +98,9 @@ console.log('------ strings ----------');
 // numbers (definition, concatenation +, math, numbers & strings)
 console.log('------ numbers ----------');
 
+    var pi = 3.14
+    var piNDP = 314
+
     // arithmetic operators:  +, -, /, *, % (modulo)
 
 
