@@ -134,14 +134,22 @@ console.log('------ numbers ----------');
 
 
 //this decrements right before it is being used
+    var num = 10;
+    --num;
+    console.log("--counter: ", num);
 
     //this decrements after it is used
+//  num--;
+//  console.log("counter--: ", num);
 
-    //comment out the above example
+//comment out the above example
     //this decrements after it is being used as well
-
+    console.log("counter--: ", num--);
+    console.log("counter: ", num);
 
     //add a number to a string is always a string
+    var myStr = "6" + 2;
+    console.log("Number + Strings: ", myStr);
 
 
     //other math operations will result in a number
