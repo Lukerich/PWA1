@@ -391,7 +391,11 @@ console.log('------ conditionals ----------');
 
 
     // all logical operators with order of operations
-
+     if (5 < 2 || (1 === 1 && ! (2 == "2" || 5 < 2))){
+         console.log('logical operator: true');
+     }else{
+         console.log('logical operator: false');
+     };
 
 
 /*******************************************
@@ -405,7 +409,14 @@ console.log('------ conditionals ----------');
  GOAL
     1. learn if - else
  ********************************************/
+    var weather = "Cloudy";
 
+        if (weather === "Sunny"){
+            bobsMood = "happy";
+        }else{
+            bobsMood = "sad";
+        };
+        console.log("If-Else weather: ", bobsMood);
 
 
 
@@ -424,6 +435,16 @@ console.log('------ conditionals ----------');
         - else bobsMood = "sad"
     3.  console.log the results after each conditional
  ********************************************/
+    var waves = 10;
+
+    var weather = "Cloudy";
+
+    if (weather === "Sunny"){
+        bobsMood = "happy";
+    }else{
+        bobsMood = "sad";
+    };
+    console.log("If-Else weather: ", bobsMood);
 
 
 
