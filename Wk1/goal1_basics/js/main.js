@@ -488,6 +488,8 @@ console.log('------ conditionals ----------');
     var mood = (weather === "Sunny" ? "happy" : "sad");
     console.log("mood: ", mood);
 
+    var smile = true;
+    console.log("I am " + ( smile === true ? "happy" : "sad" ) + "!!");
 
 /*******************************************
  STUDENT ACTIVITY 5:
