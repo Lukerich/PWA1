@@ -503,7 +503,10 @@ console.log('------ conditionals ----------');
     4.  console.log the results
  ********************************************/
 
-
+    var temp = 60;
+    var weather = "cloudy";
+    var student1 = (weather === "Sunny" ? "happy" : ((temp >= 80) ? "content" : "sad"));
+    console.log("Nested ternary weather: ", student1);
 
 // Functions: (definition, whitespace, invocation, arguments, returns)
 console.log('------Functions ----------');
