@@ -345,7 +345,15 @@ console.log('------ conditionals ----------');
     };
 
     //nested conditional statement
+    if ("a" === "a"){
+        if ("b" === "b"){
+            console.log("In Nested if-else / b === b: True");
+        }else{
 
+        };
+    }else{
+
+    };
 
 
 /* ==============================================================
