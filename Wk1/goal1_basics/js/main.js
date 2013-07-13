@@ -638,6 +638,11 @@ console.log('------Functions ----------');
         type) back to the point of call (referred to as a method)
     - the called function should be assigned to a variable (i.e name - see below)
  ********************************************/
+    var myFn = function(){
+        return 'jamesBond';
+};
+    var name = myFn();
+    console.log("name: ", name);
 
 
 
