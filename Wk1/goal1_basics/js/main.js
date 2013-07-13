@@ -550,6 +550,14 @@ console.log('------Functions ----------');
      - type the below as an example
         functionName();
  *****************************
+ */
+
+    var myCtr = 1;
+    var myCounter = function(){
+        myCtr++;
+        console.log("counter = ", myCtr);
+
+    };
 
 
 
