@@ -334,12 +334,12 @@ console.log('------ conditionals ----------');
         console.log("if-else: the 'IF' statement is false");
     };
 
-    if ("a" < "b"){
+    if ("a" > "b"){
         console.log("a is less than b");
     }else if ("a" < "c"){
         console.log("a is less than c");
     }else if ("a" < "d"){
-        console.log("a is less than c");
+        console.log("a is less than d");
     }else{
     console.log("if - else if: all others returned false");
     };
