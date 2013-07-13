@@ -331,7 +331,7 @@ console.log('------ conditionals ----------');
     if (a < b){
         console.log("a is less than b");
     }else{
-        console.log("if-else: the 'IF' statement is false);
+        console.log("if-else: the 'IF' statement is false");
     };
 
     //nested conditional statement
