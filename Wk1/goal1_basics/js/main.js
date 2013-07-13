@@ -454,9 +454,13 @@ console.log('------ conditionals ----------');
             Mood = "jackedUp";
     }else if ((waves <= 6) && (waves >= 3)){
             Mood = "totally bummed";
+        }else{
+            Mood = "not happy";
         }
+    }else{
+        Mood = "sad";
     };
-    console.log("If-Else weather: ", bobsMood);
+    console.log("Bob's Mood: ", Mood);
 
 
 
