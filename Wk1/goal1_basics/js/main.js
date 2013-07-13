@@ -449,12 +449,12 @@ console.log('------ conditionals ----------');
             Mood = "bummed";
         }
 
-    }else if{(weather === "Overcast"){
+    }else if (weather === "Overcast"){
         if ((waves < 10) && (waves >= 7)){
             Mood = "jackedUp";
-    }
-    }
-        bobsMood = "sad";
+    }else if ((waves <= 6) && (waves >= 3)){
+            Mood = "totally bummed";
+        }
     };
     console.log("If-Else weather: ", bobsMood);
 
