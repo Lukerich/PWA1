@@ -435,13 +435,25 @@ console.log('------ conditionals ----------');
         - else bobsMood = "sad"
     3.  console.log the results after each conditional
  ********************************************/
-    var waves = 10;
+
 
     var weather = "Cloudy";
+    var waves = 10;
 
     if (weather === "Sunny"){
-        bobsMood = "happy";
-    }else{
+        if (waves === 10){
+            Mood = "Pumped";
+        }else if ((waves <= 9) && (waves >= 5)){
+            Mood = "mellow";
+        }else{
+            Mood = "bummed";
+        }
+
+    }else if{(weather === "Overcast"){
+        if ((waves < 10) && (waves >= 7)){
+            Mood = "jackedUp";
+    }
+    }
         bobsMood = "sad";
     };
     console.log("If-Else weather: ", bobsMood);
