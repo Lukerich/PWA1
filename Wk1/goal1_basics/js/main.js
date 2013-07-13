@@ -688,8 +688,8 @@ console.log('------Functions ----------');
  5. console.log the Results
  ********************************************/
 
-    var value1 = "Sunny";
-    var value2 = 10;
+    var value1 = "Overcast";
+    var value2 = 5;
 
     var moodFn = function(weather, waves){
 
