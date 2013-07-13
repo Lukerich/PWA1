@@ -662,6 +662,19 @@ console.log('------Functions ----------');
     4.  console.log the results
  ********************************************/
 
+    var myCtr = 1;    //global variable used when local is not present - reduce global var use as much as possible
+
+    var myCounter = function(newct){
+        // var myCtr = 50; //local variable - function ignores global when local is present
+        myCtr += newct;
+        return myCtr;
+    };
+
+    var cnt = myCounter(5);
+    console.log("counter = ", cnt);
+    var cnt = myCounter(2);
+    console.log("counter = ", cnt);
+
 
 
 
