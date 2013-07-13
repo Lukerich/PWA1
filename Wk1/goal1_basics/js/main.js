@@ -308,7 +308,9 @@ console.log('------ conditionals ----------');
     if ("1" === 1){
         console.log("'1' == 1, False");
     };
-
+    if ("1" !== 1){
+        console.log("'1' == 1, True");
+    };
 
 /* ==============================================================
     if - else statements (allows only for one option)
