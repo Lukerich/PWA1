@@ -618,7 +618,7 @@ console.log('------Functions ----------');
      6.  console.log the results
  ********************************************/
 
-    var myCtr = 1;    //global variable
+    var myCtr = 1;    //global variable - reduce global var use as much as possible
     var myCounter = function(newct){
         var myCtr = 50; //local variable - function ignores global when local is present
         myCtr += newct;
