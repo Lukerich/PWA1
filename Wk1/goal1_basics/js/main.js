@@ -283,7 +283,8 @@ console.log('------ conditionals ----------');
 */
       if (5 > 3){
           //execute code here.
-      }
+          console.log("'5 > 3:', True!");
+      };
 
 
 /*
