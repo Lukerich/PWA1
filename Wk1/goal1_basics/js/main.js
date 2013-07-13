@@ -484,7 +484,9 @@ console.log('------ conditionals ----------');
     - ? = perform the next statement if true
     - : = false (perform the new statement after the :)
  */
-
+    var weather = "Sunny";
+    var mood = (weather === "Sunny" ? "happy" : "sad");
+    console.log("mood: ", mood);
 
 
 /*******************************************
