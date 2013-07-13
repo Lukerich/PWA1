@@ -714,6 +714,6 @@ console.log('------Functions ----------');
             Mood = "sad";
         };
         return Mood;
-
-        console.log("Bob's Mood: ", Mood);
     };
+    var MoodValue = moodFn(value1, value2);
+    console.log("Bob's Mood: ", MoodValue);
