@@ -328,7 +328,11 @@ console.log('------ conditionals ----------');
 
     //if - else if - else (allows for multiple options)
 
-
+    if (a < b){
+        console.log("a is less than b");
+    }else{
+        console.log("if-else: the 'IF' statement is false);
+    };
 
     //nested conditional statement
 
