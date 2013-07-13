@@ -373,10 +373,14 @@ console.log('------ conditionals ----------');
  */
 
     //AND logical operator
-
+    if ((1 === 1) && ("hi" === "hi")){
+        console.log('&& logical operator: both sides = true');
+    };
 
     //OR logical operator
-
+    if ((1 === 1) || ("hi" === "no")){
+        console.log('|| logical operator: one side = true');
+    };
 
     // ! NOT logical operator
 
