@@ -298,7 +298,9 @@ console.log('------ conditionals ----------');
 */
 
     // == performs a loose check of two values
-
+    if ("1" == 1){
+       console.log("'1' == 1, True");
+    };
 
 
 /* ==============================================================
