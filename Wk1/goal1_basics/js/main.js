@@ -264,8 +264,8 @@ console.log('------ conditionals ----------');
         a true or false boolean
     - conditions can be used just about anywhere, not just in conditionals and loops
 */
-
-
+    var myVar = 5 > 3;
+    console.log("is 5 great then 3: ", myVar);
 
 /*
      most common comparison operators:
