@@ -349,7 +349,7 @@ console.log('------ conditionals ----------');
         if ("b" === "b"){
             console.log("In Nested if-else / b === b: True");
         }else{
-
+           //execute block of code if the matching "IF" statement
         };
     }else{
 
