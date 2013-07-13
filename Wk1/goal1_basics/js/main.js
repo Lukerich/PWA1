@@ -383,6 +383,11 @@ console.log('------ conditionals ----------');
     };
 
     // ! NOT logical operator
+    if (!(1 === 1) || ("hi" === "no")){
+        console.log('! NOT logical operator: left is true converted to NOT');
+    }else{
+        console.log('! NOT logical operator: both side = false');
+    };
 
 
     // all logical operators with order of operations
