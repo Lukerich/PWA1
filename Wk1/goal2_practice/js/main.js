@@ -297,7 +297,13 @@ var arr3 = ['apple', 'orange', 50393, 7.324];
 
 // forEach()
 // Calls a function for each element in the array.
-    console.log();
+    console.log(arr1);
+    arr1.forEach(function(element, index,array){
+        console.log('element', element);
+        console.log('index', index);
+        console.log('array', array);
+    });
+
 
 
 
@@ -322,7 +328,19 @@ var arr3 = ['apple', 'orange', 50393, 7.324];
     var secondHalfYr = ["Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
     var combined;
 
+    var combined = firstQtr.concat(secondQtr);
+    console.log("Concat 2 arrays:", combined);
 
+    var combined = firstQtr.concat(secondQtr, secondHalfYr);
+    console.log("Concat 3 arrays:", combined);
+
+    console.log("Joined arrays:", combined.join());
+
+     console.log("Pop out", combined.pop());
+    console.log(combined);
+
+     var results = secondHalfYr.slice(2, 4);
+    console.log("Slice: ", results);
 /*
 	===============================================
 	MORE:  Operators (typeof())
