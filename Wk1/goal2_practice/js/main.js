@@ -158,16 +158,16 @@ var str2 = 'JavaScript loves me!';
 var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 // Use charAt() to console.log the 'v' in str1.
-
+        console.log(str1.charAt(4));
 
 // Use indexOf() to console.log the index of 'm' in str2.
-
+        console.log(str2.indexOf('m'));
 
 // Use lastIndexOf() to console.log the last 'a' in str1.
-
+        console.log(str1.lastIndexOf('a'));
 
 // Use length to console.log the length in str1.
-
+        console.log(str1.length);
 
 // Use split() to console.log an array of the ABC's using the abc variable.
 // EX: ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
