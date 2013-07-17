@@ -179,18 +179,21 @@ var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 // Use concat() to console.log 'I love JavaScript ! JavaScript loves me!' with str1 and str2.
 
+        console.log(str1.concat(str2));
 
 
 //STUDENT ACTIVITY 2:
 // Use substring() to console.log 'JavaScript' from str2.
-
+        console.log(str2.substring(0,10));
 
 //STUDENT ACTIVITY 3:
 // 1. Use toLowerCase() to console.log the str1 all in lowercase letters.
 // 2. Use toUpperCase() to console.log the str1 all in uppercase letters.
+        console.log(str1.toLocaleLowerCase());
+        console.log(str1.toLocaleUpperCase());
 
-
-
+//Use toString() to console log the type of str1.
+    console.log(typeof str1.toString());
 /*
 	===============================================
 	MORE:  Numbers
