@@ -13,4 +13,12 @@
     var plyOneDam = 50;
     var plyTwoDam = 50;
 
+                  // creation of functions
+    var  fight = function(){};
+    var winnerCheck = function(){};
+
+                  // math.random to generate a random number between 1 - 100
+    Math.floor((Math.random()*100)+1);
+
+    alert("Spiderman", "Batman");
 
