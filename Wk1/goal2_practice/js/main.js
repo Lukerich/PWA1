@@ -541,7 +541,7 @@ console.log('------For Loop ----------');
 
      for (var beers = 10; beers > 0; beers--){
          console.log(beers + ' bottles of beers on the wall.')
-     }
+     };
 
 	/* 
 		array.Length
@@ -554,6 +554,8 @@ console.log('------For Loop ----------');
 		- in the example below, the last index of the array would be 4 
 			- the  .length property returns the count, which would be 5	
 	*/	
+    var myNums = [1,2,3,4,5];
+    console.log('length: ', myNums.length);
 
 
 	/* 
@@ -575,6 +577,9 @@ console.log('------For Loop ----------');
 			save the array length in a variable, inside the first statement
 	*/
 
+    for (var i= 0, j=myNums.length; i<j; i++){
+        console.log(myNums[i]);
+    };
 
 	/*
 		BREAK...
@@ -583,7 +588,13 @@ console.log('------For Loop ----------');
 		- by using the "break" statement, any loop will stop running at the 
 			break point, and perform no more iterations
 	*/
-
+    for (var i= 0, j=myNums.length; i<j; i++){
+        if(i === 3){
+          console.log("testing out the break and it broke");
+          break;
+        };
+        console.log('2. length in for loop: ', myNums[i]);
+    };
 
 
 	/*
