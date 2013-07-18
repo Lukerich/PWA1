@@ -353,6 +353,11 @@ console.log('------ MORE Operators - typeof() ----------');
 
         console.log(typeof 5);
         console.log(typeof "Hi");
+
+        var str1 = "hello";
+        console.log(typeof str1);
+        console.log(typeof true);
+
 /*
 	===============================================
 	MORE:  Conditionals (switch())
