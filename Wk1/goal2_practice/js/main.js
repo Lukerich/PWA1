@@ -351,7 +351,8 @@ var arr3 = ['apple', 'orange', 50393, 7.324];
 
 console.log('------ MORE Operators - typeof() ----------');
 
-
+        console.log(typeof 5);
+        console.log(typeof "Hi");
 /*
 	===============================================
 	MORE:  Conditionals (switch())
