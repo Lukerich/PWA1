@@ -604,7 +604,13 @@ console.log('------For Loop ----------');
 			statement will stop a loop’s current iteration, and continue 
 			on to the next iteration
 	*/
-
+    for (var i= 0, j=myNums.length; i<j; i++){
+        if(i === 3){
+            console.log("testing out the break and it broke");
+            continue;
+        };
+        console.log('2. length in for loop: ', myNums[i]);
+    };
 
 /*******************************************
  STUDENT ACTIVITY 7:
