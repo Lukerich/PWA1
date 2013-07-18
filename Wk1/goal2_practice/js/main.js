@@ -358,6 +358,8 @@ console.log('------ MORE Operators - typeof() ----------');
         console.log(typeof str1);
         console.log(typeof false);
         console.log(typeof function(){});
+        console.log(typeof obj1);
+
 
 /*
 	===============================================
