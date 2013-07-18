@@ -26,17 +26,18 @@
     var round=1;
 
     function fight(){
-        alert(playerOne.index[0]+":"+playerOne.index[2]+"  *START*  "+playerTwo.index[0]+":"+playerTwo.index[2]);
+        alert(playerOne[0]+":"+playerOne[2]+"  *START*  "+playerTwo[0]+":"+playerTwo[2]);
         for (var i = 0; i < 10; i++)
         {
-            var f1 = Math.floor((Math.random()*playerOne.index[1])+playerOne.index[1] *.5);
-            var f2 = Math.floor((Math.random()*playerTwo.index[1])+playerTwo.index[1] *.5);
-
+            var f1 = Math.floor((Math.random()*playerOne[1])+playerOne[1] *.5);
+            console.log(f1);
+            var f2 = Math.floor((Math.random()*playerTwo[1])+playerTwo[1] *.5);
+            console.log(f2);
             //inflict damage
-            playerOneHealth-=f1;
-            playerTwoHealth-=f2;
+            playerOne[2]-=f1;
+            playerTwo[2]-=f2;
 
-            console.log(playerOne.index[0]+": "+playerOne.index[2] + " " + playerTwo.index[0]+":"+playerTwo.index[2]);
+            console.log(playerOne[0]+": "+playerOne[2] + " " + playerTwo[0]+":"+playerTwo[2]);
 
             //check for victor
             var result = winnerCheck();
@@ -44,7 +45,7 @@
             if (result==="no winner")
             {
                 round++;
-                alert(playerOneName+":"+playerOneHealth+"  *ROUND "+round+" OVER"+"*  "+playerTwoName+":"+playerTwoHealth);
+                alert(playerOne[0]+":"+playerOne[2]+"  *ROUND "+round+" OVER"+"*  "+playerTwo[0]+":"+playerTwo[2]);
 
             } else{
                 alert(result);
@@ -56,14 +57,14 @@
 
     function winnerCheck(){
         var result="no winner";
-        if (playerOneHealth < 1 && playerTwoHealth < 1)
+        if (playerOne[2] < 1 && playerTwo[2] < 1)
         {
             result = "You Both Die";
-        } else if(playerOneHealth < 1){
-            result =playerTwoName+" WINS!!!"
-        } else if (playerTwoHealth < 1)
+        } else if(playerOne[2] < 1){
+            result =playerTwo[0]+" WINS!!!"
+        } else if (playerTwo[2] < 1)
         {
-            result = playerOneName+" WINS!!!"
+            result = playerOne[0]+" WINS!!!"
         };
        return result;
     };
