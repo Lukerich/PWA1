@@ -513,7 +513,7 @@ console.log('------ While / Loop ----------');
     while (numOfBeers > 0){
         console.log(numOfBeers + ' kegs on the wall.');
         numOfBeers--;
-    }
+    };
 	
 /*
 	===============================================
@@ -540,7 +540,7 @@ console.log('------ While / Loop ----------');
 console.log('------For Loop ----------');
 
      for (var beers = 10; beers > 0; beers--){
-         console.log(beers + ' bottles of beers on the wall.')
+         console.log(beers + ' bottles of beers on the wall.');
      };
 
 	/* 
@@ -624,7 +624,11 @@ console.log('------For Loop ----------');
 		b.  create a for loop using the faster method (4 parameters)
 			- in the loop just console.log the values
 ********************************************/
-
+    console.log('Student Activity 7:');
+    var myCC = ['Superman', 'Batman', 'Wolverine', 'Iceman'];
+        for (var i= 0; i<myCC.length; i++){
+            console.log(myCC[i]);
+        };
 
 
 /*******************************************
