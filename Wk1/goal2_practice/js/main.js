@@ -604,6 +604,7 @@ console.log('------For Loop ----------');
 			statement will stop a loop’s current iteration, and continue 
 			on to the next iteration
 	*/
+    var myNums = [1,2,3,4,5];
     for (var i= 0, j=myNums.length; i<j; i++){
         if(i === 3){
             console.log("testing out the break and it broke");
