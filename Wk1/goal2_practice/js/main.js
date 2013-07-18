@@ -609,7 +609,7 @@ console.log('------For Loop ----------');
             console.log("testing out the break and it broke");
             continue;
         };
-        console.log('2. length in for loop: ', myNums[i]);
+        console.log('length in for loop: ', myNums[i]);
     };
 
 /*******************************************
