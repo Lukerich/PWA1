@@ -356,7 +356,8 @@ console.log('------ MORE Operators - typeof() ----------');
 
         var str1 = "hello";
         console.log(typeof str1);
-        console.log(typeof true);
+        console.log(typeof false);
+        console.log(typeof function(){});
 
 /*
 	===============================================
