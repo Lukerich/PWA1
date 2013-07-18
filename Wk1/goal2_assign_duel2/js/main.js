@@ -13,14 +13,6 @@
     var playerOne = ["Spiderman", 20, 100];
     var playerTwo = ["Batman", 20, 100];
 
-//    //player damage
-//    var player1Damage;
-//    player1Damage = 20;
-//    var player2Damage = 20;
-//
-//    //player health
-//    var playerOneHealth = 100;
-//    var playerTwoHealth = 100;
 
     //initiate round
     var round=1;
@@ -30,9 +22,8 @@
         for (var i = 0; i < 10; i++)
         {
             var f1 = Math.floor((Math.random()*playerOne[1])+playerOne[1] *.5);
-            console.log(f1);
             var f2 = Math.floor((Math.random()*playerTwo[1])+playerTwo[1] *.5);
-            console.log(f2);
+
             //inflict damage
             playerOne[2]-=f1;
             playerTwo[2]-=f2;
