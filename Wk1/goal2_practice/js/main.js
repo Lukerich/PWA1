@@ -359,6 +359,15 @@ console.log('------ MORE Operators - typeof() ----------');
         console.log(typeof false);
         console.log(typeof function(){});
         console.log(typeof obj1);
+        console.log(typeof [1,2,3,4,5]);
+        console.log(typeof missingVariable);
+
+        console.log(typeof myString === 'undefined');
+        if (typeof myString === 'undefined'){
+            console.log("myString is undefined");
+        }else{
+            console.log("myString is: ", myString);
+        };
 
 
 /*
@@ -384,6 +393,30 @@ console.log('------ MORE Operators - typeof() ----------');
 */
 
 console.log('------ MORE Conditionals - Switch ----------');
+
+        var fruit = "Oranges";
+
+        switch (fruit){
+            case "Oranges":
+                console.log("Oranges are $ a pound.");
+                break;
+            case "Apples":
+                console.log("Apples are $ a pound.");
+                break;
+            case "Bananas":
+                console.log("Bananas are $ a pound.");
+                break;
+            case "Cherries":
+                console.log("Cherries are $ a pound.");
+                break;
+            case "Mangoes":
+                console.log("Mangoes are $ a pound.");
+                break;
+            case "Papayas":
+                console.log("Papayas are $ a pound.");
+                break;
+        }
+
 
 /*******************************************
  STUDENT ACTIVITY 6:
