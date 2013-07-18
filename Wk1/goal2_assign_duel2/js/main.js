@@ -29,14 +29,14 @@
         alert(playerOne.index[0]+":"+playerOne.index[2]+"  *START*  "+playerTwo.index[0]+":"+playerTwo.index[2]);
         for (var i = 0; i < 10; i++)
         {
-            var f1 = Math.floor((Math.random()*playerOne.index[1])+player1Damage *.5);
-            var f2 = Math.floor((Math.random()*player2Damage)+player2Damage *.5);
+            var f1 = Math.floor((Math.random()*playerOne.index[1])+playerOne.index[1] *.5);
+            var f2 = Math.floor((Math.random()*playerTwo.index[1])+playerTwo.index[1] *.5);
 
             //inflict damage
             playerOneHealth-=f1;
             playerTwoHealth-=f2;
 
-            console.log(playerOneName+": "+playerOneHealth + " " + playerTwoName+":"+playerTwoHealth);
+            console.log(playerOne.index[0]+": "+playerOne.index[2] + " " + playerTwo.index[0]+":"+playerTwo.index[2]);
 
             //check for victor
             var result = winnerCheck();
