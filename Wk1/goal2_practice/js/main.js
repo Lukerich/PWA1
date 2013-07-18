@@ -427,7 +427,18 @@ console.log('------ MORE Conditionals - Switch ----------');
 			if age 18 then console.log "adult"
 			if no age then console.log "No answer"
 ********************************************/
+        var age = "13";
 
+        switch (age){
+            case "13":
+                console.log("child.");
+                break;
+            case "18":
+                console.log("adult");
+                break;
+            default:
+                console.log("No answer");
+        };
 
 
 /*
