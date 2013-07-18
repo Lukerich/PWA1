@@ -394,7 +394,7 @@ console.log('------ MORE Operators - typeof() ----------');
 
 console.log('------ MORE Conditionals - Switch ----------');
 
-        var fruit = "chicken";
+        var fruit = "Mangoes";
 
         switch (fruit){
             case "Oranges":
