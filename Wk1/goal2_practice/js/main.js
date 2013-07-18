@@ -624,12 +624,17 @@ console.log('------For Loop ----------');
 		b.  create a for loop using the faster method (4 parameters)
 			- in the loop just console.log the values
 ********************************************/
-    console.log('Student Activity 7:');
+    console.log('Student Activity 7A:');
     var myCC = ['Superman', 'Batman', 'Wolverine', 'Iceman'];
         for (var i= 0; i<myCC.length; i++){
             console.log(myCC[i]);
         };
 
+    console.log('Student Activity 7B:');
+    var myCC = ['Superman', 'Batman', 'Wolverine', 'Iceman'];
+    for (var i= 0, j=myCC.length; i<j; i++){
+        console.log(myCC[i]);
+    };
 
 /*******************************************
     STUDENT ACTIVITY 8: (More Practice):
