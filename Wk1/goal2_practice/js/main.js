@@ -453,7 +453,12 @@ console.log('------ MORE Conditionals - Switch ----------');
 */
 
 console.log('------ MORE Functions ----------');
+    var bondsCars = function (){
+       return ['ferrari', 'lambo', 'vwBug'];
+    };
 
+    var cars = bondsCars();
+    console.log('James Bond cars, ', cars);
 
 	/* 
 		Self Executing Functions
@@ -503,6 +508,12 @@ console.log('------ MORE Functions ----------');
 */
 console.log('------ While / Loop ----------');
 
+    var numOfBeers = 10;
+
+    while (numOfBeers > 0){
+        console.log(numOfBeers + ' kegs on the wall.');
+        numOfBeers--;
+    }
 	
 /*
 	===============================================
