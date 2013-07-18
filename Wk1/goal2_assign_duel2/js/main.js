@@ -1,10 +1,10 @@
 /**
  * Richard Luke
  * Duel Fight Game - FINISHED
- * Date: 7/15/13
+ * Date: 7/17/13
 
- Assignment 1
- Part 1/3 of series
+ Assignment 2
+ Part 2/3 of series
 */
 (function(){
     console.log("FIGHT!!!");
