@@ -539,6 +539,9 @@ console.log('------ While / Loop ----------');
 
 console.log('------For Loop ----------');
 
+     for (var beers = 10; beers > 0; beers--){
+         console.log(beers + ' bottles of beers on the wall.')
+     }
 
 	/* 
 		array.Length
