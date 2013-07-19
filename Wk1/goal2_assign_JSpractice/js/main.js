@@ -58,8 +58,8 @@
                 console.log(counter);  // starts out as 0  then increments 1 to 15
                 console.log(j);        // I get a 5
                 console.log(i);        // starts at 0 and increments to 5
-                    counter += arr[i];
-                    };
+                counter +=arr[i];
+                };
             console.log(counter);        // outputs NaN code
             var numAvg = (counter/arr.length);
 
@@ -73,7 +73,9 @@
     //--------------------------------------------------------
     console.log("2. concat first and last name");
 
-        //PUT FUNCTION HERE
+        var combined = function(){
+         //PUT FUNCTION HERE
+        };
 
     console.log(fullName('James', 'Bond'));
 
