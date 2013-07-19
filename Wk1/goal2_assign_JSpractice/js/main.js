@@ -75,15 +75,13 @@
     //--------------------------------------------------------
     console.log("3. word count");
     var ipsum = "this is test text that is being used as input to a function";
-    console.log(ipsum);
-    var arrWct = ipsum.split(" ");
-    console.log(arrWct);
+
     var wordCount = function(arr){
-
-
-    };                //PUT FUNCTION HERE
-
-    console.log(wordCount(ipsum));
+        var arrWct = arr.split(' ');  //PUT FUNCTION HERE
+        return arrWct.length;
+    };
+    var arrWct = wordCount;
+    console.log("The number of words are: ", wordCount(ipsum));
 
     //--------------------------------------------------------
     console.log("4. sentence char count");
