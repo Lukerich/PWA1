@@ -66,10 +66,10 @@
 
     var fullName = function(firstname,lastname){
             var namFull = firstname + " " + lastname;
-            console.log(namFull);
+            return namFull;
     };
 
-
+    var namFull = fullName;
     console.log("His Name is ", fullName('James', 'Bond'));
 
     //--------------------------------------------------------

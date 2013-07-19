@@ -7,8 +7,8 @@
     </list>
     <ignored path="goal2_assign_JSpractice.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="52d8bc31-7c5b-4b76-b3c5-1b8774652c9b" time="1374273830406" ignored="false" />
-    <file path="/main.js" changelist="52d8bc31-7c5b-4b76-b3c5-1b8774652c9b" time="1374273887009" ignored="false" />
+    <file path="/Dummy.txt" changelist="52d8bc31-7c5b-4b76-b3c5-1b8774652c9b" time="1374273902274" ignored="false" />
+    <file path="/main.js" changelist="52d8bc31-7c5b-4b76-b3c5-1b8774652c9b" time="1374273946992" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="4" selection-start="2756" selection-end="2756" vertical-scroll-proportion="0.55641425">
+            <state line="70" column="33" selection-start="2749" selection-end="2749" vertical-scroll-proportion="0.5332303">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -214,7 +214,11 @@
       <created>1374273834581</created>
       <updated>1374273834581</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="updates">
+      <created>1374273906344</created>
+      <updated>1374273906344</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -318,7 +322,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="4" selection-start="2756" selection-end="2756" vertical-scroll-proportion="0.55641425">
+        <state line="70" column="33" selection-start="2749" selection-end="2749" vertical-scroll-proportion="0.5332303">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
