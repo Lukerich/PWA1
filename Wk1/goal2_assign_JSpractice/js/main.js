@@ -65,9 +65,9 @@
 
             console.log(arr.length);   // I get the number of elements in the array (5)
             console.log("Avg is " + numAvg);        //I get NaN
-            return;
+            return numAvg;
     };
-
+    var numAvg = avgNumbers;
     console.log('avg number = ', avgNumbers([1,2,3,4,5]));  // I get avg number = undefined
 
     //--------------------------------------------------------
