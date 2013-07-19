@@ -51,20 +51,11 @@
 
     console.log("1. avg of an array of numbers");
     var avgNumbers = function(arr){
-            console.log(arr);         // I get the list out of the array
-
             var counter = 0;
             for (var i=0, j=arr.length; i<j; i++){
-                console.log(counter);  // starts out as 0  then increments 1 to 15
-                console.log(j);        // I get a 5
-                console.log(i);        // starts at 0 and increments to 5
                 counter +=arr[i];
                 };
-            console.log("conuter is " + counter);        // outputs NaN code
             var numAvg = (counter/arr.length);
-
-            console.log(arr.length);   // I get the number of elements in the array (5)
-            console.log("Avg is " + numAvg);        //I get NaN
             return numAvg;
     };
     var numAvg = avgNumbers;
