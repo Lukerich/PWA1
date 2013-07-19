@@ -1,3 +1,8 @@
+/*
+    Richard Luke
+    7/18/2013
+    Goal2: Assignment: Javascript Practice
+*/
 // self-executing function
 (function(){
 
