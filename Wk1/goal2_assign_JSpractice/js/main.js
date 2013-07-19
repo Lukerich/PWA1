@@ -74,9 +74,14 @@
 
     //--------------------------------------------------------
     console.log("3. word count");
-    var ipsum = "this is test text that is being used as input to a function"
+    var ipsum = "this is test text that is being used as input to a function";
+    console.log(ipsum);
+    var arrWct = ipsum.split(" ");
+    console.log(arrWct);
+    var wordCount = function(arr){
 
-        //PUT FUNCTION HERE
+
+    };                //PUT FUNCTION HERE
 
     console.log(wordCount(ipsum));
 
