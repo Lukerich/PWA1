@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52d8bc31-7c5b-4b76-b3c5-1b8774652c9b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="goal2_assign_JSpractice.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="52d8bc31-7c5b-4b76-b3c5-1b8774652c9b" time="1374273902274" ignored="false" />
+    <file path="/Dummy.txt" changelist="52d8bc31-7c5b-4b76-b3c5-1b8774652c9b" time="1374273976785" ignored="false" />
     <file path="/main.js" changelist="52d8bc31-7c5b-4b76-b3c5-1b8774652c9b" time="1374273946992" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +39,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="33" selection-start="2749" selection-end="2749" vertical-scroll-proportion="0.5332303">
+            <state line="49" column="62" selection-start="2021" selection-end="2059" vertical-scroll-proportion="0.04636785">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -218,7 +217,11 @@
       <created>1374273906344</created>
       <updated>1374273906344</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="updates">
+      <created>1374273980654</created>
+      <updated>1374273980654</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -322,7 +325,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="33" selection-start="2749" selection-end="2749" vertical-scroll-proportion="0.5332303">
+        <state line="49" column="62" selection-start="2021" selection-end="2059" vertical-scroll-proportion="0.04636785">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
