@@ -87,12 +87,12 @@
     console.log("4. sentence char count");
 
     var charCount = function(arr){
-        var chCnt = arr.lenght;         //PUT FUNCTION HERE
-        console.log(chCnt);
-    }
+        var chCnt = arr.split('');         //PUT FUNCTION HERE
+        return chCnt.length;
+    };
 
-
-    console.log("The number of characters are: ", charCount(ipsum));
+    var chCnt = charCount;
+    console.log("The number of characters and spaces are: ", charCount(ipsum));
 
     //--------------------------------------------------------
     console.log("5. how many vowels in a word");

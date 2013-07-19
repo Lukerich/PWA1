@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52d8bc31-7c5b-4b76-b3c5-1b8774652c9b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="goal2_assign_JSpractice.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="52d8bc31-7c5b-4b76-b3c5-1b8774652c9b" time="1374276167029" ignored="false" />
-    <file path="/main.js" changelist="52d8bc31-7c5b-4b76-b3c5-1b8774652c9b" time="1374276151205" ignored="false" />
+    <file path="/Dummy.txt" changelist="52d8bc31-7c5b-4b76-b3c5-1b8774652c9b" time="1374276466413" ignored="false" />
+    <file path="/main.js" changelist="52d8bc31-7c5b-4b76-b3c5-1b8774652c9b" time="1374276660885" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="62" selection-start="2021" selection-end="2059" vertical-scroll-proportion="0.1854714">
+            <state line="94" column="45" selection-start="3553" selection-end="3553" vertical-scroll-proportion="0.53632146">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -229,7 +230,11 @@
       <created>1374276170339</created>
       <updated>1374276170339</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="updates">
+      <created>1374276470076</created>
+      <updated>1374276470076</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -333,7 +338,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="62" selection-start="2021" selection-end="2059" vertical-scroll-proportion="0.1854714">
+        <state line="94" column="45" selection-start="3553" selection-end="3553" vertical-scroll-proportion="0.53632146">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
