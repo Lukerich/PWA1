@@ -53,18 +53,18 @@
     var avgNumbers = function(arr){
             console.log(arr);         // I get the list out of the array
 
-            var counter = 0;
+            var couNter = 0;
             for (var i=0, j=arr.length; i<=j; i++){
-                console.log(counter);  // starts out as 0  then increments 1 to 15
+                console.log(couNter);  // starts out as 0  then increments 1 to 15
                 console.log(j);        // I get a 5
                 console.log(i);        // starts at 0 and increments to 5
-                counter +=arr[i];
+                couNter +=arr[i];
                 };
-            console.log(counter);        // outputs NaN code
-            var numAvg = (counter/arr.length);
+            console.log("conuter is s" + couNter);        // outputs NaN code
+            var numAvg = (couNter/arr.length);
 
             console.log(arr.length);   // I get the number of elements in the array (5)
-            console.log(numAvg);        //I get NaN
+            console.log("Avg is " + numAvg);        //I get NaN
             return;
     };
 
@@ -73,8 +73,9 @@
     //--------------------------------------------------------
     console.log("2. concat first and last name");
 
-        var combined = function(){
-         //PUT FUNCTION HERE
+        var fullName = function(){
+         fullName.join(" ");   //PUT FUNCTION HERE
+         return namFull;
         };
 
     console.log(fullName('James', 'Bond'));
