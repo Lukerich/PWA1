@@ -65,12 +65,12 @@
     console.log("2. concat first and last name");
 
     var fullName = function(firstname,lastname){
-            var namFull = firstname;
+            var namFull = firstname + " " + lastname;
             console.log(namFull);
     };
 
 
-    console.log("His Name is ", fullName(['James', 'Bond']));
+    console.log("His Name is ", fullName('James', 'Bond'));
 
     //--------------------------------------------------------
     console.log("3. word count");
