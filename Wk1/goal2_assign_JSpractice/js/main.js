@@ -101,7 +101,9 @@
     var vowelsInWord = function(arr){
         var volCnt = 0;
         for (var i=0, j=arr.length; i<j; i++){      //PUT FUNCTION HERE
-            volCnt +=arr[i];
+            if ('aeiou'.search(arr[i]) > -1){
+                volCnt++;
+            };
         };
         return volCnt;
     };
