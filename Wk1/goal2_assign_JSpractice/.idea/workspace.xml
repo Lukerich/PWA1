@@ -6,7 +6,7 @@
     </list>
     <ignored path="goal2_assign_JSpractice.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="52d8bc31-7c5b-4b76-b3c5-1b8774652c9b" time="1374281384694" ignored="false" />
+    <file path="/Dummy.txt" changelist="52d8bc31-7c5b-4b76-b3c5-1b8774652c9b" time="1374281598885" ignored="false" />
     <file path="/main.js" changelist="52d8bc31-7c5b-4b76-b3c5-1b8774652c9b" time="1374281321314" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -249,7 +249,11 @@
       <created>1374281388156</created>
       <updated>1374281388156</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="updates">
+      <created>1374281600677</created>
+      <updated>1374281600677</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
