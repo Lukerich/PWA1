@@ -68,14 +68,15 @@ console.log('------Object within an object, Arrays, Function ----------');
              num: 3300,
              street: 'University',
              city:'Orlando',
-             conerOf:['University','Semoran']
+             cornerOf:['University','Semoran']
          },
          showMyAddress:function(){
              var addr = this.address.street + ',' + this.address.city;
              return addr;
          }
-
-     }
+     };
+     console.log(thatGuy.showMyAddress());
+     console.log(thatGuy.address.street, thatGuy.address.city);
 
 //properties & methods
 /*
@@ -88,7 +89,7 @@ console.log('------Object within an object, Arrays, Function ----------');
 console.log('------Objects - properties & methods ----------');
 
 //Method 1 "Basic"
-
+    var fsStudent = {};
 
 
 
