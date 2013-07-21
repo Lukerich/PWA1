@@ -192,8 +192,8 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
     var students = {name:"JamesBond",gender:"male",job:"student"};
 
     for(var key in students){
-
-
+       console.log('Key Name: ', key);
+       console.log('Value of the key[',key,']:',students[key]);
     };
 
 
