@@ -189,6 +189,12 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 */
     console.log("---------- Object - For In Loop ----------------");
 
+    var students = {name:"JamesBond",gender:"male",job:"student"};
+
+    for(var key in students){
+
+
+    };
 
 
 /*
