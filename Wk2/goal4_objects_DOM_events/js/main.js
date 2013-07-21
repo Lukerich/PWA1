@@ -229,7 +229,11 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 			- using these constructors, we can also convert from one data type to another.
 */
     console.log('------ Objects - Converting Datatypes ----------');
-
+        var myNum = 1;
+        myString = String(myNum);
+        console.log('myString:', typeof myString, myString);
+        myBool = Boolean(myString);
+        console.log('myBool:', typeof myBool, myBool);
 
 
 /*
@@ -241,19 +245,41 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 
 // #1 - shows string length
 
+        myStr = 'OMG';
+        console.log(myStr.length);
 
 // #2 - shows array length
-	
+
+        myArr =[6,10];
+        console.log(myArr.length);
 
 // #3 - shows and array of objects, inside of an object length
-	
+
+         var obj1 = {
+             schoolName:'Full Sail',
+             address:'123 University Blvd',
+             studentCount:16000,
+             students:[
+                 {name:'Jane Doe', GPA:2.6, classes:['PWA1','ARD']},
+                 {name:'Albert Einstein', GPA:4.0},
+                 {name:'James Bond', GPA:3.9}
+             ]
+         };
+
+        console.log('number of object fields', obj1.students.length);
 
 console.log('------ MORE Object examples - Objects/Functions ----------');
 
 // showing a function call and creating a method
 
-
-
+        var fn = function(name, course){
+            return{
+                sayHi:function(){
+                    console.log("My name is " + name + " I am in course " + course);
+                }
+            }
+        };
+        fn("JamesBond","PWA1").sayHi();
 /*
 	==================================================================
 	DOCUMENT OBJECT MODEL
