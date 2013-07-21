@@ -123,11 +123,15 @@ Method 2 "OBJECT Literal"
          age: 22,
          career: 'Web Dev',
          sayHello:function(){
-             console.log('Hello');
+             console.log('Hello!');
          }
      };
 
+    fsStudent.sayHello();     // run sayHello method (dot notation)
+    fsStudent['sayHello'](); // index syntax
 
+    console.log(fsStudent.age);
+    console.log(fsStudent['age']);
 
 //---------------------------------------------
 
