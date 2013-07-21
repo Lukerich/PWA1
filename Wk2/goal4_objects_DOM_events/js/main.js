@@ -178,12 +178,12 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
     console.log(newCnt);
     console.log(stdLst['address']);
     console.log(stdLst.students[0].GPA);
-    console.log(stdLst['students'][2]['GPA']);
+    console.log(stdLst['students'][0]['GPA']);
 
     var newCnt = 'studentCount';
     console.log(stdLst[newCnt]);        // example of using a variable as index
 
-    var fieldName1 = "address";
+    var fieldName1 = "address";         // example of using a var as above
     console.log(stdLst[fieldName1]);
 
 
@@ -200,8 +200,17 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
     2.  console.log the average grade by calling the gradeAvg method.
 ----------------------------------------------------------------------------- */
 
+    var gradeAvg = function(stdLst){
+        var cnt = 0;
+        var tot = 0;
+            for (var i = 0, j=stdLst.students.length; i<j; i++){
+                cnt++;
+                tot = tot + stdLst.students[i]['GPA'];
+            };
+            return tot/cnt;
+        ;}
 
-
+    console.log(gradeAvg(stdLst));
 
 /* ===============================================================
 	The for-in object loop
