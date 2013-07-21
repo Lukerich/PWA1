@@ -90,7 +90,11 @@ console.log('------Objects - properties & methods ----------');
 
 //Method 1 "Basic"
     var fsStudent = {};
-
+    fsStudent.age = 22;
+    fsStudent.career = 'Web Dev';
+    fsStudent.sayHello = function(){
+        console.log('Hello!');
+    };
 
 
 // above, we first initialize the object, then we created 2 properties 
@@ -99,7 +103,8 @@ console.log('------Objects - properties & methods ----------');
 
 // we can also access the methods and properties of an object using  [ ] , 
 // 	by using their name as a string - all of the below are valid:
-
+     fsStudent.sayHello();     // run sayHello method (dot notation)
+     fsStudent['sayHello'](); // index syntax
 
 
 
