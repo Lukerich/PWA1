@@ -103,9 +103,12 @@ console.log('------Objects - properties & methods ----------');
 
 // we can also access the methods and properties of an object using  [ ] , 
 // 	by using their name as a string - all of the below are valid:
+
      fsStudent.sayHello();     // run sayHello method (dot notation)
      fsStudent['sayHello'](); // index syntax
 
+     console.log(fsStudent.age);
+     console.log(fsStudent['age']);
 
 
 /* --------------
@@ -116,7 +119,13 @@ Method 2 "OBJECT Literal"
 
 	- below is the same object as in Method 1
 */
-
+     var fsStudent = {
+         age: 22,
+         career: 'Web Dev',
+         sayHello:function(){
+             console.log('Hello');
+         }
+     };
 
 
 
