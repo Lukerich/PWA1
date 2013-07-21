@@ -61,7 +61,21 @@ console.log('------Objects ----------');
 
 console.log('------Object within an object, Arrays, Function ----------');
 
+     var thatGuy = {
+         name:'JamesBond',
+         course:'PWA1',
+         address:{
+             num: 3300,
+             street: 'University',
+             city:'Orlando',
+             conerOf:['University','Semoran']
+         },
+         showMyAddress:function(){
+             var addr = this.address.street + ',' + this.address.city;
+             return addr;
+         }
 
+     }
 
 //properties & methods
 /*
