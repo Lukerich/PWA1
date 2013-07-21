@@ -162,6 +162,30 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 
 // this is integrating multiple data types - object with an array of objects
 
+    var stdLst = {
+        schoolName:'Full Sail',
+        address:'123 University Blvd',
+        studentCount:16000,
+        students:[
+            {name:'Jo Ann Smith', GPA:3.6, classes:['PWA1','PWA2']},
+            {name:'Russell Humphreys', GPA:4.0, classes:['PWA1','PWA2']},
+            {name:'James Bond', GPA:3.9, classes:['PWA1','PWA2']}
+        ]
+    };
+    var newCnt = stdLst.studentCount;
+    console.log(stdLst.schoolName);    // dot notation
+    console.log(stdLst['schoolName']);    // index syntax
+    console.log(newCnt);
+    console.log(stdLst['address']);
+    console.log(stdLst.students[0].GPA);
+    console.log(stdLst['students'][2]['GPA']);
+
+    var newCnt = 'studentCount';
+    console.log(stdLst[newCnt]);        // example of using a variable as index
+
+    var fieldName1 = "address";
+    console.log(stdLst[fieldName1]);
+
 
 
 /* ----------------------------------------------------------------------------
@@ -255,18 +279,18 @@ console.log('------ STUDENT ACTIVITY - ANSWERS BELOW ----------');
 
 // #3 - shows and array of objects, inside of an object length
 
-         var obj1 = {
+         var stdLst = {
              schoolName:'Full Sail',
              address:'123 University Blvd',
              studentCount:16000,
              students:[
-                 {name:'Jane Doe', GPA:2.6, classes:['PWA1','ARD']},
-                 {name:'Albert Einstein', GPA:4.0},
-                 {name:'James Bond', GPA:3.9}
+                 {name:'Jo Ann Smith', GPA:3.6, classes:['PWA1','PWA2']},
+                 {name:'Russell Humphreys', GPA:4.0, classes:['PWA1','PWA2']},
+                 {name:'James Bond', GPA:3.9, classes:['PWA1','PWA2']}
              ]
          };
 
-        console.log('number of object fields', obj1.students.length);
+        console.log('number of object fields', stdLst.students.length);
 
 console.log('------ MORE Object examples - Objects/Functions ----------');
 
