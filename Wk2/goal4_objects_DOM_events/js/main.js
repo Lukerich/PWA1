@@ -329,12 +329,12 @@ console.log('------------ DOCUMENT OBJECT MODEL -------------------');
  console.log(window.location);
  console.log(window.history);
  console.log(window.navigator);
-
+ */
  //Document DOM object
  console.log(document);
  console.log(document.body);
  console.log(document.head);
- */
+
 
 
 /*
@@ -442,8 +442,15 @@ console.log('------------ querySelectorAll -------------------');
         attr = href, src, class
 */
 
+    var navLinks = document.querySelectorAll('#nav li');
 
+    for (var i= 0, max=navLinks.length; i<max; i++){
+        var href = navLinks[i].firstChild.getAttribute('href'); //anchor link look up
+        console.log('Manipulation HREF: ',href);
+    };
+    if (href === '#1'){
 
+    }
 /*
 	==================================================================
 	Manipulating CSS Classes
