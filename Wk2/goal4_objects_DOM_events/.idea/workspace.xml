@@ -6,7 +6,7 @@
     </list>
     <ignored path="goal4_objects_DOM_events.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="fa918b91-1759-4102-9db1-16e90f94c5fa" time="1374627811478" ignored="false" />
+    <file path="/Dummy.txt" changelist="fa918b91-1759-4102-9db1-16e90f94c5fa" time="1374627820133" ignored="false" />
     <file path="/main.js" changelist="fa918b91-1759-4102-9db1-16e90f94c5fa" time="1374627686508" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -308,7 +308,11 @@
       <created>1374627813421</created>
       <updated>1374627813421</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="updates">
+      <created>1374627824215</created>
+      <updated>1374627824215</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
