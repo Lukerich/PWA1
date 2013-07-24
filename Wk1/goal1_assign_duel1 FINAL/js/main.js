@@ -64,7 +64,7 @@
         {
             result = playerOneName+" WINS!!!"
         };
-       return result;
+        return result;
     };
 
     fight();

@@ -452,15 +452,24 @@ console.log('------------ querySelectorAll -------------------');
         attr = href, src, class
 */
 
+
+console.log('------------ Manipulating Attributes setAttribute / getAttribute -------------------');
+
+
     var navLinks = document.querySelectorAll('#nav li');
 
     for (var i= 0, max=navLinks.length; i<max; i++){
         var href = navLinks[i].firstChild.getAttribute('href'); //anchor link look up
         console.log('Manipulation HREF: ',href);
-    };
-    if (href === '#1'){
 
-    }
+        if (href === '#1'){
+            var href2 = navLinks[i].firstChild;
+            console.log(href2);
+
+            href2.setAttribute('href', 'http://www.fullsail.com');
+        };
+    //};
+
 /*
 	==================================================================
 	Manipulating CSS Classes
@@ -477,17 +486,50 @@ console.log('------------ querySelectorAll -------------------');
 
 console.log('------------ Manipulating CSS Classes -------------------');
 
+//        var aClass = navLinks[i].firstChild.getAttribute('class');
+//        console.log('Manipulation CLASS: ', aClass);
+//
+//        navLinks[i].firstChild.setAttribute('class','navitem active');
+
 
 /*
-	==================================================================
-	Replacing an HTML container with new HTML
-	------------------------------------------------------------------
-		- In a later project, you are building a gallery. 
-		- You will be targeting the SCR of an image tag.
-		- See contentPreview in HTML
+    ======================================================================
+        Manipulating HTML
+    ----------------------------------------------------------------------
+        HTML elements also have a property called "innerHTML"
+        .innerHTML is both a getter and a setter property (using strings)
 
-Sample Link: http://www.instructables.com/files/deriv/FJI/WGSW/FPIUQQ3K/FJIWGSWFPIUQQ3K.MEDIUM.jpg
 */
+
+console.log('------------ Manipulating HTML -------------------');
+
+        navLinks[i].firstChild.setAttribute('href','http://google.com');
+
+    };
+
+    var navLinks = document.querySelectorAll('#nav a');
+    console.log(navLinks[1].innerHTML);
+
+    navLinks[1].innerHTML = 'This link rocks!';
+
+    for (var i= 0, max=navLinks.length; i<max; i++){
+        navLinks[i].innerHTML = 'Click Me '+ (1+i);
+    };
+
+    /*
+        ==================================================================
+        Replacing an HTML container with new HTML
+        ------------------------------------------------------------------
+            - In a later project, you are building a gallery.
+            - You will be targeting the SCR of an image tag.
+            - See contentPreview in HTML
+
+    Sample Link: http://www.instructables.com/files/deriv/FJI/WGSW/FPIUQQ3K/FJIWGSWFPIUQQ3K.MEDIUM.jpg
+*/
+
+        var bigImage = document.querySelector('#contentPreview img');
+        bigImage.setAttribute('src','http://www.instructables.com/files/deriv/FJI/WGSW/FPIUQQ3K/FJIWGSWFPIUQQ3K.MEDIUM.jpg');
+
 
 
 
