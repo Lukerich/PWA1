@@ -636,13 +636,14 @@ console.log('------------ DOM Events Ex 3 -------------------');
 // a more efficient way to do the above
 
 */
+    nav[0].setAttribute('class','navitem active');
 
     for (var i = 0, max = nav.length; i< max; i++){
         nav[i].onclick = function(e){
 //            for (var ii = 0, max = nav.length; ii < max; ii++){
 //                nav[ii].setAttribute('class','navitem');
 //            }
-            document.querySelector('#nav li a').setAttribute('class','navitem');
+            document.querySelector('#nav li a.active').setAttribute('class','navitem');
 
             console.log(this);
             this.setAttribute('class','navitem active');
