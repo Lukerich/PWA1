@@ -50,7 +50,9 @@
                     }else{
                         console.log('in else');
                         console.log(result);
-
+                        var rltLks = document.querySelector('#scores scores');
+                        console.log(rltLks);
+                        //rltLks.innerHTML = (result);
                     };
 
     };
