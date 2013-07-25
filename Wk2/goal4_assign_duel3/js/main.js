@@ -16,13 +16,11 @@
     ]
     };
 
-    var  clkFght = function(e){
-            id.fight_btn.addEventListener('click',fight, false);
 
-            e.preventDefault();
-            return false;
-    };
+    id.fight_btn.addEventListener('click',fight, false);
 
+    e.preventDefault();
+    return false;
 
 
 
