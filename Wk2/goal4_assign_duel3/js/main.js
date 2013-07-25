@@ -18,8 +18,9 @@
 
 
     //initiate round
+    var fhtBtn = document.querySelectorAll("#fight_btn");
     var round=1;
-    document.id.fight_box.fight_btn.onclick = function(e){
+    fhtBtn.onclick = function(e){
     function fight(){
 
         alert(plyLst.players[0].name+":"+plyLst.players[0].health+plyLst.players[1].name+":"+plyLst.players[1].health);
@@ -66,6 +67,6 @@
                     return result;
                 };
 
-    fight();
+    fhtBtn ();
 
 })();
