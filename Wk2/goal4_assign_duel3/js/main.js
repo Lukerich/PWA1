@@ -33,6 +33,8 @@
                     //inflict damage
                     players[0].health-=f1;
                     players[1].health-=f2;
+                    console.log(f1);
+                    console.log(f2);
 
                     //check for victor
                     var result = winnerCheck();
@@ -45,9 +47,11 @@
                         var scrLks = document.querySelectorAll('#scores p');
                         scrLks[0].innerHTML = ('id', players[0].name+':'+players[0].health);
                         scrLks[1].innerHTML = ('id', players[1].name+':'+players[1].health);
+                        console.log(scrLks);
                 }else{
                     scrRsl = document.querySelector('scores');
                     scrRsl= result;
+                    console.log(scrRsl);
                     break;
                     }
             };
