@@ -4,9 +4,9 @@
     <list default="true" id="3c1e69a2-67f6-4e49-b284-45480a1dedae" name="Default" comment="" />
     <ignored path="goal4_assign_duel3.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3c1e69a2-67f6-4e49-b284-45480a1dedae" time="1374769852339" ignored="false" />
-    <file path="/main.js" changelist="3c1e69a2-67f6-4e49-b284-45480a1dedae" time="1374769224897" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="3c1e69a2-67f6-4e49-b284-45480a1dedae" time="1374769852047" ignored="false" />
+    <file path="/Dummy.txt" changelist="3c1e69a2-67f6-4e49-b284-45480a1dedae" time="1374770860951" ignored="false" />
+    <file path="/main.js" changelist="3c1e69a2-67f6-4e49-b284-45480a1dedae" time="1374770611461" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="3c1e69a2-67f6-4e49-b284-45480a1dedae" time="1374770860637" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="32" column="36" selection-start="559" selection-end="559" vertical-scroll-proportion="-20.0">
+                <state line="21" column="23" selection-start="297" selection-end="308" vertical-scroll-proportion="-13.125">
                   <folding />
                 </state>
               </provider>
@@ -40,7 +40,16 @@
           <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../goal4_objects_DOM_events/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="640" column="51" selection-start="20817" selection-end="20817" vertical-scroll-proportion="0.43925235">
+                <state line="587" column="58" selection-start="18942" selection-end="18942" vertical-scroll-proportion="0.60280377">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../goal4_objects_DOM_events/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
                   <folding />
                 </state>
               </provider>
@@ -53,7 +62,7 @@
           <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="38" column="55" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.60747665">
+                <state line="66" column="68" selection-start="2272" selection-end="2272" vertical-scroll-proportion="1.1448598">
                   <folding />
                 </state>
               </provider>
@@ -121,7 +130,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../goal4_objects_DOM_events/js/main.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../goal4_objects_DOM_events/index.html" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -216,7 +225,11 @@
       <created>1374769856010</created>
       <updated>1374769856010</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="updates">
+      <created>1374770863897</created>
+      <updated>1374770863897</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -318,23 +331,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../goal4_objects_DOM_events/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="36" selection-start="559" selection-end="559" vertical-scroll-proportion="-20.0">
+        <state line="21" column="23" selection-start="297" selection-end="308" vertical-scroll-proportion="-13.125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../goal4_objects_DOM_events/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="640" column="51" selection-start="20817" selection-end="20817" vertical-scroll-proportion="0.43925235">
+        <state line="587" column="58" selection-start="18942" selection-end="18942" vertical-scroll-proportion="0.60280377">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="55" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.60747665">
+        <state line="66" column="68" selection-start="2272" selection-end="2272" vertical-scroll-proportion="1.1448598">
           <folding />
         </state>
       </provider>
