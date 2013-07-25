@@ -16,7 +16,7 @@
     ]
     };
 
-        var onClk = document.body.id.['fight_btn'].onclick = function(e){
+        var onClk = id.['fight_btn'].onclick = function(e){
             fight()(e);
 
             e.preventDefault();
