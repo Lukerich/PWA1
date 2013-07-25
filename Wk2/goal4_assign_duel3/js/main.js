@@ -17,16 +17,9 @@
     };
 
 
-    id.fight_btn.addEventListener('click',fight, false);
-
-    e.preventDefault();
-    return false;
-
-
-
     //initiate round
     var round=1;
-
+    document.id.fight_box.fight_btn.onclick = function(e){
     function fight(){
 
         alert(plyLst.players[0].name+":"+plyLst.players[0].health+plyLst.players[1].name+":"+plyLst.players[1].health);
@@ -47,7 +40,7 @@
                 if (result==="no winner")
                 {
                             round++;
-                            alert(playerOne[0]+":"+playerOne[2]+"  *ROUND "+round+" OVER"+"*  "+playerTwo[0]+":"+playerTwo[2]);
+                            alert(plyLst.players[0].name+":"+plyLst.players[0].health+plyLst.players[1].name+":"+plyLst.players[1].health);
 
                         } else{
                             alert(result);
@@ -55,18 +48,20 @@
                         };
 
                     };
-                };
-
+                e.preventDefault();
+                return false;
+    };
+    };
                 function winnerCheck(){
                     var result="no winner";
-                    if (playerOne[2] < 1 && playerTwo[2] < 1)
+                    if (plyLst.players[0].health < 1 && plyLst.players[1].health < 1)
                     {
                         result = "You Both Die";
                     } else if(playerOne[2] < 1){
-                        result =playerTwo[0]+" WINS!!!"
+                        result = plyLst.players[1].name+" WINS!!!"
                     } else if (playerTwo[2] < 1)
                     {
-                        result = playerOne[0]+" WINS!!!"
+                        result = plyLst.players[0].name+" WINS!!!"
                     };
                     return result;
                 };
