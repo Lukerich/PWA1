@@ -11,14 +11,16 @@
 
 
 
-    var players =   [{name:'Spiderman', damage:20, health:100},
-                    {name:'Batman', damage:20, health:100}]
+    var players = [{name:'Spiderman', damage:20, health:100},
+                   {name:'Batman', damage:20, health:100}]
 
 
 
     //initiate round
     var fhtBtn = document.querySelector("#fight_btn");
-    var round = document.querySelectorAll('#round_number input');
+    var round = document.querySelector("#round_number input");
+
+    console.log(round);
     fhtBtn.onclick = fight;
     function fight(){
                     console.log("in fight");
@@ -42,11 +44,14 @@
                     if (result==="no winner")
                     {
                     round++;
+                        var scrLks = document.querySelectorAll('#scores p');
                         scrLks[0].innerHTML = ('id',f1);
                         scrLks[1].innerHTML = ('id',f2);
+
                         console.log(scrLks[0].innerHTML + scrLks[1].innerHTML);
                 }else{
-                    alert(result);
+                    scrRsl = document.querySelector('scores');
+                    scrRsl= result;
                     break;
                     }
             };
