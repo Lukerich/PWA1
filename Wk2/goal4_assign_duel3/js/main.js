@@ -17,44 +17,42 @@
 
 
     //initiate round
-    var round = 1;
+
     var fhtBtn = document.querySelector("#fight_btn");
     fhtBtn.onclick = fight;
+    var round = 1;
     function fight(){
-                    console.log("in fight");
-                    var scrLks = document.querySelectorAll('#scores p');
-                        scrLks[0].innerHTML = ('id', players[0].name+':'+players[0].health);
-                        scrLks[1].innerHTML = ('id', players[1].name+':'+players[1].health);
 
-            for (var i = 0; i < 10; i++){
+                    console.log("in fight");
+
                     var f1 = Math.floor((Math.random()*players[0].damage)+players[0].damage *.5);
                     var f2 = Math.floor((Math.random()*players[1].damage)+players[1].damage *.5);
 
                     //inflict damage
                     players[0].health-=f1;
                     players[1].health-=f2;
-                    console.log(f1);
-                    console.log(f2);
+                    console.log(players[0]);
+                    console.log(players[1]);
 
                     //check for victor
                     var result = winnerCheck();
-                    console.log(result);
+                    console.log('winner check ' + result);
+
                     if (result==="no winner")
                     {
+                        console.log('in if');
                         round++;
                         console.log(round);
-                        var round = document.querySelectorAll('#round_number input');
                         var scrLks = document.querySelectorAll('#scores p');
                         scrLks[0].innerHTML = ('id', players[0].name+':'+players[0].health);
                         scrLks[1].innerHTML = ('id', players[1].name+':'+players[1].health);
-                        console.log(scrLks);
-                }else{
-                    scrRsl = document.querySelector('scores');
-                    scrRsl= result;
-                    console.log(scrRsl);
-                    break;
-                    }
-            };
+                        console.log('1st scrLks');
+                    }else{
+                        console.log('in else');
+                        console.log(result);
+
+                    };
+
     };
 
                 function winnerCheck(){
