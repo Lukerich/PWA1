@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c1e69a2-67f6-4e49-b284-45480a1dedae" name="Default" comment="updates">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+    <list default="true" id="3c1e69a2-67f6-4e49-b284-45480a1dedae" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="goal4_assign_duel3.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3c1e69a2-67f6-4e49-b284-45480a1dedae" time="1374772800179" ignored="false" />
+    <file path="/Dummy.txt" changelist="3c1e69a2-67f6-4e49-b284-45480a1dedae" time="1374776170867" ignored="false" />
     <file path="/main.js" changelist="3c1e69a2-67f6-4e49-b284-45480a1dedae" time="1374775837365" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +32,7 @@
           <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../goal4_objects_DOM_events/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="516" column="45" selection-start="16576" selection-end="16576" vertical-scroll-proportion="0.9068323">
+                <state line="516" column="45" selection-start="16576" selection-end="16576" vertical-scroll-proportion="0.9096573">
                   <folding />
                 </state>
               </provider>
@@ -59,7 +56,7 @@
               <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/js/main.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="36" column="16" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.4409938">
+                    <state line="36" column="16" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.4423676">
                       <folding />
                     </state>
                   </provider>
@@ -72,7 +69,7 @@
               <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/index.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="5" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.12096774">
+                    <state line="5" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.12135922">
                       <folding />
                     </state>
                   </provider>
@@ -245,13 +242,18 @@
       <created>1374771716951</created>
       <updated>1374771716951</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="updates">
+      <created>1374776175371</created>
+      <updated>1374776175371</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="22" width="1418" height="803" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -265,7 +267,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -375,7 +376,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.12096774">
+        <state line="5" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.12135922">
           <folding />
         </state>
       </provider>
@@ -389,14 +390,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../goal4_objects_DOM_events/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="516" column="45" selection-start="16576" selection-end="16576" vertical-scroll-proportion="0.9068323">
+        <state line="516" column="45" selection-start="16576" selection-end="16576" vertical-scroll-proportion="0.9096573">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="16" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.4409938">
+        <state line="36" column="16" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.4423676">
           <folding />
         </state>
       </provider>
