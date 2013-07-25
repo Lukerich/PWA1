@@ -18,12 +18,13 @@
 
 
     //initiate round
-    var fhtBtn = document.querySelectorAll("#fight_btn");
+    var fhtBtn = document.querySelector("#fight_btn");
     var round=1;
     fhtBtn.onclick = function(e){
     function fight(){
 
-        alert(plyLst.players[0].name+":"+plyLst.players[0].health+plyLst.players[1].name+":"+plyLst.players[1].health);
+        document.scores.setAttribute('id','kabal')(plyLst.players[0].name+":"+plyLst.players[0].health);
+        document.scores.setAttribute('id','kratos plyLst.players[1].name+":"+plyLst.players[1].health');
 
         for (var i = 0; i < 10; i++){
                 var f1 = Math.floor((Math.random()*plyLst.players[0].damage)+plyLst.players[0].damage *.5);
@@ -67,6 +68,6 @@
                     return result;
                 };
 
-    fhtBtn ();
+    fight ();
 
 })();
