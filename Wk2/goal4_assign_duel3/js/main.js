@@ -14,10 +14,9 @@
 //    var playerTwo = ["Batman", 20, 100];
     //player objects
 
-    var plyLst = {
-        players:[
-            {name:'Spiderman', damage:20, health:100},
-            {name:'Batman', damage:20, health:100}
+    var plyLst = {players:[
+                    {name:'Spiderman', damage:20, health:100},
+                    {name:'Batman', damage:20, health:100}
     ]
     };
 
