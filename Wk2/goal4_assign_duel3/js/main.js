@@ -15,13 +15,12 @@
                     {name:'Batman', damage:20, health:100}
     ]
     };
-
-        id.fight_btn.addEventListener('click',function(e){
-            fight()(e);
-
+        var  clkFght = function(e){fight
             e.preventDefault();
             return false;
-        }, false)
+        };
+
+        id.fight_btn.addEventListener('click',clkFght, false);
 
 
     //initiate round
