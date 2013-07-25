@@ -16,12 +16,12 @@
     ]
     };
 
-        var onClk = id.fight_btn.onclick = function(e){
+        id.fight_btn.addEventListener('click',function(e){
             fight()(e);
 
             e.preventDefault();
             return false;
-        };
+        }, false)
 
 
     //initiate round
