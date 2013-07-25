@@ -10,41 +10,43 @@
     console.log("FIGHT!!!");
 
 
-    var plyLst = {players:[
-                    {name:'Spiderman', damage:20, health:100},
-                    {name:'Batman', damage:20, health:100}
-    ]
-    };
+
+    var players =   [{name:'Spiderman', damage:20, health:100},
+                    {name:'Batman', damage:20, health:100}]
+
 
 
     //initiate round
     var fhtBtn = document.querySelector("#fight_btn");
     var round=1;
-    fhtBtn.onclick = function(e){
+    fhtBtn.onclick = fight;
     function fight(){
+                    console.log("in fight");
+                    var scrLks = document.querySelectorAll('#scores p');
+                    scrLks[0].innerHTML = ('id','players[0].health');
+                    scrLks[1].innerHTML = ('id','players[1].health');
+                    console.log(scrLks[0].innerHTML + scrLks[1].innerHTML);
+            for (var i = 0; i < 10; i++){
+                    var f1 = Math.floor((Math.random()*players[0].damage)+players[0].damage *.5);
+                    var f2 = Math.floor((Math.random()*players[1].damage)+players[1].damage *.5);
 
-        document.scores.setAttribute('id','kabal')(plyLst.players[0].name+":"+plyLst.players[0].health);
-        document.scores.setAttribute('id','kratos plyLst.players[1].name+":"+plyLst.players[1].health');
+                    //inflict damage
+                    players[0].health-=f1;
+                    players[1].health-=f2;
 
-        for (var i = 0; i < 10; i++){
-                var f1 = Math.floor((Math.random()*plyLst.players[0].damage)+plyLst.players[0].damage *.5);
-                var f2 = Math.floor((Math.random()*plyLst.players[1].damage)+plyLst.players[1].damage *.5);
+                    console.log(players[0].name+": "+players[0].health + " " + players[1].name+":"+players[1].health);
 
-                //inflict damage
-                plyLst.players[0].health-=f1;
-                plyLst.players[1].health-=f2;
+                    //check for victor
+                    var result = winnerCheck();
+                    console.log(result);
+                    if (result==="no winner")
+                    {
+                    round++;
+                    document.scores.setAttribute('id','kabal players[0].health');
+                    document.scores.setAttribute('id','kratos players[1].health');
 
-                console.log(plyLst.players[0].name+": "+plyLst.players[0].health + " " + plyLst.players[1].name+":"+plyLst.players[1].health);
 
-                //check for victor
-                var result = winnerCheck();
-                console.log(result);
-                if (result==="no winner")
-                {
-                            round++;
-                            alert(plyLst.players[0].name+":"+plyLst.players[0].health+plyLst.players[1].name+":"+plyLst.players[1].health);
-
-                        } else{
+                } else{
                             alert(result);
                             break;
                         };
@@ -53,21 +55,18 @@
                 e.preventDefault();
                 return false;
     };
-    };
+
                 function winnerCheck(){
                     var result="no winner";
-                    if (plyLst.players[0].health < 1 && plyLst.players[1].health < 1)
+                    if (players[0].health < 1 && players[1].health < 1)
                     {
                         result = "You Both Die";
-                    } else if(playerOne[2] < 1){
-                        result = plyLst.players[1].name+" WINS!!!"
-                    } else if (playerTwo[2] < 1)
+                    } else if(players[0].health < 1){
+                        result = players[1].name+" WINS!!!"
+                    } else if (players[1].health < 1)
                     {
-                        result = plyLst.players[0].name+" WINS!!!"
+                        result = players[0].name+" WINS!!!"
                     };
                     return result;
                 };
-
-    fight ();
-
 })();
