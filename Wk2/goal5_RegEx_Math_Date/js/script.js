@@ -339,25 +339,25 @@ STUDENT ACTIVITY
 
 	1.  Write a RegEx for a basic name (containing only letters)
 
-		Answer: 
+		Answer:   var basNam = new RegExp /[a-zA-z]/;     /^[a-zA-Z]+$/
 
 	2.  What are the possible answers for this: /[Jj]ava[Ss]cript/
 
-		Answer: 
+		Answer:   JavaScript - javascript - Javascript - javaScript
 
 	3. 	What are the possible answers for this: /^(Java)?Script$/
 
-		Answer: 
+		Answer:   anything that starts with Java with or without closing ) Script must have a t at the end
 
 	4. 	Describe the possible answer for this: /^[a-zA-Z\^\-\.]+$/
 
-		Answer: 
+		Answer:  must start with any letter U/L case  with a dash and dot at the end
 
 	5.	Combining character sets can create sequences of matches.
 		
 		Describe the possible answers for this: /^[a-zA-Z]+[0-9]$/ 	
 
-		Answer: 
+		Answer:    begins with any letter U/L case plus any number 0-9 at the end
 
 ----------------------------------------------------------------------------- */
 
