@@ -375,7 +375,9 @@ STUDENT ACTIVITY
 */
 
     var emailRegEx = /(\w[-._\w]*\w@\w[-._\w]*\w\.\w{2,3})/;
+    var email = new RegExp(emailRegEx);
     var str = "My personal email is jc@google.com but my work email is jc@fullsail.com";
+
     console.log(emailRegEx.exec(str));
     console.log(emailRegEx.test(str));
     console.log(str.search(emailRegEx));
