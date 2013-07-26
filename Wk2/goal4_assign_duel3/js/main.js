@@ -43,7 +43,7 @@
                         console.log('in if');
                         round++;
                         console.log(round);
-                        var rndNum = document.querySelectorAll('#round_number value');
+                        var rndNum = document.querySelector('#fight_btn h4');
                         console.log(rndNum);
                         rndNum.innerHTML = ("ROUND " + round + " complete");
                         var scrLks = document.querySelectorAll("#scores p");
@@ -53,9 +53,11 @@
                     }else{
                         console.log('in else');
                         console.log(result);
-                        var rltLks = document.querySelector('#scores');
-                        console.log(rltLks);
-                        rltLks.innerHTML = result;
+                        var ftBtn = document.querySelectorAll('#fight_btn a');
+                        console.log(ftBtn);
+                        ftBtn.innerHTML = ('DONE!!!');
+                        var rstLks = document.querySelectorAll("#scores p");
+                        rstLks[1].innerHTML = (result);
                     }
 
     }
