@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c1e69a2-67f6-4e49-b284-45480a1dedae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="goal4_assign_duel3.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3c1e69a2-67f6-4e49-b284-45480a1dedae" time="1374810166947" ignored="false" />
+    <file path="/Dummy.txt" changelist="3c1e69a2-67f6-4e49-b284-45480a1dedae" time="1374813765723" ignored="false" />
     <file path="/main.js" changelist="3c1e69a2-67f6-4e49-b284-45480a1dedae" time="1374813704210" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -336,7 +335,11 @@
       <created>1374810168531</created>
       <updated>1374810168531</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="updates">
+      <created>1374813768191</created>
+      <updated>1374813768191</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
