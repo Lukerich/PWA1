@@ -50,7 +50,7 @@
                     }else{
                         console.log('in else');
                         console.log(result);
-                        var rltLks = document.querySelectorAll('scores.clear');
+                        var rltLks = document.querySelectorAll('#scores p');
                         console.log(rltLks);
                         rltLks.innerHTML = result;
                     };
