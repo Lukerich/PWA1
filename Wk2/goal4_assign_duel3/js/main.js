@@ -43,16 +43,16 @@
                         console.log('in if');
                         round++;
                         console.log(round);
-                        var scrLks = document.querySelectorAll('#scores p');
-                        scrLks[0].innerHTML = ('id', players[0].name+':'+players[0].health);
-                        scrLks[1].innerHTML = ('id', players[1].name+':'+players[1].health);
+                        var scrLks = document.querySelectorAll('#scores id');
+                        scrLks[0].innerHTML = ('p', players[0].name+':'+players[0].health);
+                        scrLks[1].innerHTML = ('p', players[1].name+':'+players[1].health);
                         console.log('1st scrLks');
                     }else{
                         console.log('in else');
                         console.log(result);
-                        var rltLks = document.querySelector('#scores scores');
-                        console.log(rltLks);
-                        //rltLks.innerHTML = (result);
+                        //var rltLks = document.querySelector('#scores');
+                        //console.log(rltLks);
+                        scores.innerHTML = result;
                     };
 
     };
