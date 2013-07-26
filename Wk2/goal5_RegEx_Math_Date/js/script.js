@@ -319,12 +319,20 @@ console.log('------------ DOM Events -------------------');
 	[A-Z]		would match any upper case letter
 	[a-zA-Z]	would match any letter
 	[^..]		any one character not between the brackets - [^a-zA-Z]  would match any non-letter
- */
+
+     var emailRegEx = /^[\w\.\-]+@([\w\-]+\.)+[a=zA-Z]+$/; // literal usage pattern more limited
+     var email = new RegExp("pattern"); // inject
+     var email = new RegExp('/^[\w\.\-]+@([\w\-]+\.)+[a=zA-Z]+$/');
+     var email = new RegExp(emailRegEx);
+*/
 
 console.log('------------ Regular Expressions -------------------');
 
-    var emailRegEx = /^[\w\.\-]+@([\w\-]+\.)+[a=zA-Z]+$/;
-    var email = new RegExp("pattern");
+    var emailRegEx = /^[\w\.\-]+@([\w\-]+\.)+[a=zA-Z]+$/; // literal usage pattern more limited
+    var email = new RegExp("pattern"); // inject
+    var email = new RegExp('/^[\w\.\-]+@([\w\-]+\.)+[a=zA-Z]+$/');
+    var email = new RegExp(emailRegEx);
+
 
 /******************************************************************************
 STUDENT ACTIVITY
