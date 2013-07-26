@@ -1,14 +1,14 @@
 /**
  * GUESSING GAME:
  *
- * Created By: 
- * Date: 
+ * Created By: Richard Luke
+ * Date:   7/26/2013
  * 
  * GUESSING GAME
  */
 
 //Game variables
-(function ()
+(function (){
 
 
 })();

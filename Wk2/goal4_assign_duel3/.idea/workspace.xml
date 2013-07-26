@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c1e69a2-67f6-4e49-b284-45480a1dedae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="3c1e69a2-67f6-4e49-b284-45480a1dedae" name="Default" comment="" />
     <ignored path="goal4_assign_duel3.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="3c1e69a2-67f6-4e49-b284-45480a1dedae" time="1374813765723" ignored="false" />
     <file path="/main.js" changelist="3c1e69a2-67f6-4e49-b284-45480a1dedae" time="1374813704210" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="3c1e69a2-67f6-4e49-b284-45480a1dedae" time="1374813830498" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,7 @@
           <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="47" column="66" selection-start="1713" selection-end="1713" vertical-scroll-proportion="0.43925235">
+                <state line="39" column="64" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.25233644">
                   <folding />
                 </state>
               </provider>
@@ -510,7 +509,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="66" selection-start="1713" selection-end="1713" vertical-scroll-proportion="0.43925235">
+        <state line="39" column="64" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.25233644">
           <folding />
         </state>
       </provider>
