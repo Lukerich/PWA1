@@ -137,7 +137,8 @@ console.log('------------ Document Object Model (DOM) -------------------');
 //STUDENT - using the console.log above, how would you include ALL the 'li'
 //      for the id #nav?
 
-
+        var nav = document.querySelectorAll('#nav li');
+            console.log(nav);
 
 /*
 	==================================================================
@@ -273,8 +274,10 @@ console.log('------------ DOM Events -------------------');
 	Example Pattern:
 	Date: 	/^(?:(?:(?:0?[13578]|1[02])(\/|-|\.)31)\1|(?:(?:0?[13-9]|1[0-2])(\/|-|\.)(?:29|30)\2))(?:(?:1[6-9]|[2-9]\d)?\d{2})$|^(?:0?2(\/|-|\.)29\3(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:(?:0?[1-9])|(?:1[0-2]))(\/|-|\.)(?:0?[1-9]|1\d|2[0-8])\4(?:(?:1[6-9]|[2-9]\d)?\d{2})$/
 	Email: 	/(\w[-._\w]*\w@\w[-._\w]*\w\.\w{2,3})/
-	Phone: ^[2-9]\d{2}-\d{3}-\d{4}$
+	Phone: /^[2-9]\d{2}-\d{3}-\d{4}$/
 		407-555-5555 
+
+    var emailRegEx = /^[\w\.\-]+@([\w\-]+\.)+[a=zA-Z]+$/;
 
 	// special RegEx rules
 	. (dot)			this is a wildcard character - it will match anything except for line breaks
@@ -308,6 +311,9 @@ console.log('------------ DOM Events -------------------');
  */
 
 console.log('------------ Regular Expressions -------------------');
+
+    var emailRegEx = /^[\w\.\-]+@([\w\-]+\.)+[a=zA-Z]+$/;
+
 
 /******************************************************************************
 STUDENT ACTIVITY
