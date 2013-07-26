@@ -182,8 +182,19 @@ console.log('------------ DOM - Manipulating Attributes -------------------');
 
 
 //STUDENT - how would I set the attribute? change the href to google.com?
+    var navLinks = document.querySelectorAll('#nav li');
 
+    for (var i= 0, max=navLinks.length; i<max; i++){
+        var href = navLinks[i].firstChild.getAttribute('href'); //anchor link look up
+        console.log('Manipulation HREF: ',href);
 
+       if (href === '#2'){
+            var href2 = navLinks[i].firstChild;
+            console.log(href2);
+
+            href2.setAttribute('href', 'http://www.google.com');
+        }
+    }
 /*
 	==================================================================
 	Manipulating HTML
@@ -219,7 +230,7 @@ console.log('------------ DOM - Manipulating HTML w/ .innerHTML ----------------
 console.log('------------ DOM - Manipulating CSS -------------------');
 
 var navLinks = document.querySelectorAll('#nav a');
-
+          console.log(navLinks);
 
 
 
@@ -313,7 +324,7 @@ console.log('------------ DOM Events -------------------');
 console.log('------------ Regular Expressions -------------------');
 
     var emailRegEx = /^[\w\.\-]+@([\w\-]+\.)+[a=zA-Z]+$/;
-
+    var email = new RegExp("pattern");
 
 /******************************************************************************
 STUDENT ACTIVITY
