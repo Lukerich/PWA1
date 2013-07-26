@@ -38,13 +38,14 @@
                     var result = winnerCheck();
                     console.log('winner check ' + result);
 
-                    if (result==="no winner"&& round<9)
+                    if (result==="no winner" && round<9)
                     {
                         console.log('in if');
                         round++;
                         console.log(round);
-                        var rndNum = document.querySelectorAll('#fight_box href');
-                        rndNum.innerHTML = ('Round ' + round + '/n' + 'complete');
+                        var rndNum = document.querySelectorAll('#round_number value');
+                        console.log(rndNum);
+                        rndNum.innerHTML = ("ROUND " + round + " complete");
                         var scrLks = document.querySelectorAll("#scores p");
                         scrLks[0].innerHTML = (players[0].name+':'+players[0].health);
                         scrLks[1].innerHTML = (players[1].name+':'+players[1].health);
