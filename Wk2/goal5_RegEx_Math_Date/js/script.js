@@ -401,8 +401,9 @@ STUDENT ACTIVITY
     /* ["jc@google.com" THIS IS SEARCH ITEM, "jc@google.com" THIS IS ITEM FOUND (ONLY ONE IF THERE HAD BEEN MORE THEY WOULD ALSO DISPLAY)
     , index: 21, input: "My personal email is jc@google.com but my work email is jc@fullsail.com"]
      */
-
-
+    console.log(str.match(/(\w[-._\w]*\w@\w[-._\w]*\w\.\w{2,3})/g));  //global match
+    // break it down       /(\w[-._\w]*\w@\w[-._\w]*\w\.\w{2,3})/g     @ sign next
+    //                     /^[\w\.\-]+@([\w\-]+\.)+[a-zA-Z]+$/;   @ sign next
 
 /* 
 	// RegExp metaCharacters
@@ -434,11 +435,11 @@ STUDENT ACTIVITY
 	Write a RegEx for a phone number to match the following formats:
 	1.  Format: (123) 456-7890 | 123-456-7890
 
-		Answer: 
+		Answer:
 
 	2.  Format: (573)8841878 | 573-884-1234 | 573 234 1256
 
-		Answer: 
+		Answer:
 	
 ----------------------------------------------------------------------------- */
 
