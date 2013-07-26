@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="672510e8-6e85-47d5-a6fd-3b8caa636f57" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="goal5_RegEx_Math_Date.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../../Course Activities INSTRUCTOR/goal5_RegEx_Math_Date FINAL/index.html" changelist="672510e8-6e85-47d5-a6fd-3b8caa636f57" time="1372345795580" ignored="false" />
-    <file path="/Dummy.txt" changelist="672510e8-6e85-47d5-a6fd-3b8caa636f57" time="1374858975746" ignored="false" />
+    <file path="/Dummy.txt" changelist="672510e8-6e85-47d5-a6fd-3b8caa636f57" time="1374860555485" ignored="false" />
     <file path="/script.js" changelist="672510e8-6e85-47d5-a6fd-3b8caa636f57" time="1374860138299" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +220,11 @@
       <created>1374858978715</created>
       <updated>1374858978715</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updates">
+      <created>1374860558762</created>
+      <updated>1374860558762</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
