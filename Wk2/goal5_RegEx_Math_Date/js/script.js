@@ -348,17 +348,17 @@ STUDENT ACTIVITY
 	3. 	What are the possible answers for this: /^(Java)?Script$/
 
 		Answer:   anything that starts with Java with or without closing ) Script must have a t at the end
-
+                   JavaScript or Script (Java) is optional
 	4. 	Describe the possible answer for this: /^[a-zA-Z\^\-\.]+$/
 
 		Answer:  must start with any letter U/L case  with a dash and dot at the end
-
+                               a-zA-Z one or more of only letters
 	5.	Combining character sets can create sequences of matches.
 		
 		Describe the possible answers for this: /^[a-zA-Z]+[0-9]$/ 	
 
 		Answer:    begins with any letter U/L case plus any number 0-9 at the end
-
+                                 one or more at beginning a number needs to be at the end only 0-9.
 ----------------------------------------------------------------------------- */
 
 /*
@@ -374,10 +374,8 @@ STUDENT ACTIVITY
 	split()		string.split.(RegExp): cuts a string into an array, making cuts at matches
 */
 
-
-
-
-
+    var emailRegEx = /(w[-._\w]*\w@\w[-._\w]*\w\.\w{2,3})/;
+    var str = "My personal email is jc@google.com but my work email is jc@fullsail.com";
 
 /* 
 	// RegExp metaCharacters
