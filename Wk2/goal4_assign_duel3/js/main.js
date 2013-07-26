@@ -12,7 +12,7 @@
 
 
     var players = [{name:'Spiderman', damage:20, health:100},
-                   {name:'Batman', damage:20, health:100}]
+                   {name:'Batman', damage:20, health:100}];
 
 
 
@@ -43,19 +43,21 @@
                         console.log('in if');
                         round++;
                         console.log(round);
-                        var scrLks = document.querySelectorAll('#scores p');
+                        var rndNum = document.querySelectorAll('#fight_box href');
+                        rndNum.innerHTML = ('Round ' + round + '/n' + 'complete');
+                        var scrLks = document.querySelectorAll("#scores p");
                         scrLks[0].innerHTML = (players[0].name+':'+players[0].health);
                         scrLks[1].innerHTML = (players[1].name+':'+players[1].health);
                         console.log('1st scrLks');
                     }else{
                         console.log('in else');
                         console.log(result);
-                        var rltLks = document.querySelectorAll('#scores p');
+                        var rltLks = document.querySelector('#scores');
                         console.log(rltLks);
                         rltLks.innerHTML = result;
-                    };
+                    }
 
-    };
+    }
 
                 function winnerCheck(){
                     var result="no winner";
@@ -67,7 +69,7 @@
                     } else if (players[1].health < 1)
                     {
                         result = players[0].name+" WINS!!!"
-                    };
+                    }
                     return result;
-                };
+                }
 })();
