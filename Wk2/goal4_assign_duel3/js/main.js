@@ -22,42 +22,30 @@
     fhtBtn.onclick = fight;
     var round = 1;
     function fight(){
-
-                    console.log("in fight");
-
                     var f1 = Math.floor((Math.random()*players[0].damage)+players[0].damage *.5);
                     var f2 = Math.floor((Math.random()*players[1].damage)+players[1].damage *.5);
 
                     //inflict damage
                     players[0].health-=f1;
                     players[1].health-=f2;
-                    console.log(players[0]);
-                    console.log(players[1]);
 
                     //check for victor
                     var result = winnerCheck();
-                    console.log('winner check ' + result);
-
                     if (result==="no winner" && round<9)
                     {
-                        console.log('in if');
                         round++;
-                        console.log(round);
                         var rndNum = document.querySelector('#fight_btn h4');
-                        console.log(rndNum);
                         rndNum.innerHTML = ("ROUND " + round + " complete");
                         var scrLks = document.querySelectorAll("#scores p");
                         scrLks[0].innerHTML = (players[0].name+':'+players[0].health);
                         scrLks[1].innerHTML = (players[1].name+':'+players[1].health);
-                        console.log('1st scrLks');
+
                     }else{
-                        console.log('in else');
-                        console.log(result);
-                        var ftBtn = document.querySelectorAll('#fight_btn a');
-                        console.log(ftBtn);
-                        ftBtn.innerHTML = ('DONE!!!');
-                        var rstLks = document.querySelectorAll("#scores p");
-                        rstLks[1].innerHTML = (result);
+                        var ftBtn = document.querySelector('#fight_btn a');
+                        ftBtn.innerHTML = ("DONE!!!");
+                        var rstLks = document.querySelectorAll('#scores p');
+                        rstLks[0].innerHTML = ('');
+                        rstLks[1].innerHTML = (result + '                           ');
                     }
 
     }

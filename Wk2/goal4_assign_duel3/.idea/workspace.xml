@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c1e69a2-67f6-4e49-b284-45480a1dedae" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="goal4_assign_duel3.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="3c1e69a2-67f6-4e49-b284-45480a1dedae" time="1374810166947" ignored="false" />
-    <file path="/main.js" changelist="3c1e69a2-67f6-4e49-b284-45480a1dedae" time="1374810043401" ignored="false" />
+    <file path="/main.js" changelist="3c1e69a2-67f6-4e49-b284-45480a1dedae" time="1374813704210" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +33,7 @@
           <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="55" column="80" selection-start="1940" selection-end="1940" vertical-scroll-proportion="0.53271025">
+                <state line="47" column="66" selection-start="1713" selection-end="1713" vertical-scroll-proportion="0.43925235">
                   <folding />
                 </state>
               </provider>
@@ -45,7 +46,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="32" column="8" selection-start="559" selection-end="559" vertical-scroll-proportion="0.7606973">
+                <state line="14" column="16" selection-start="208" selection-end="208" vertical-scroll-proportion="0.33280507">
                   <folding />
                 </state>
               </provider>
@@ -499,14 +500,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="8" selection-start="559" selection-end="559" vertical-scroll-proportion="0.7606973">
+        <state line="14" column="16" selection-start="208" selection-end="208" vertical-scroll-proportion="0.33280507">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="80" selection-start="1940" selection-end="1940" vertical-scroll-proportion="0.53271025">
+        <state line="47" column="66" selection-start="1713" selection-end="1713" vertical-scroll-proportion="0.43925235">
           <folding />
         </state>
       </provider>
