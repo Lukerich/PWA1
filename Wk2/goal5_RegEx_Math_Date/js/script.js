@@ -49,14 +49,15 @@ person = {'name':'bond', 'age':35, 'secretAgent':true};
 
 // STUDENT - how would you write the above with the KEY not being a
 //      string?
-
+person = {0:'Bond', 1:35, 2:true};
+    console.log(person);
 
 // nested object
 person = {birthday:{month:02, day:12}, name:'bond'};   //setter
 
 
 //STUDENT - how would you console.log the birthday month in dot notation?
-
+ console.log(person.birthday.month);
 
 // Object within an object, Arrays, Function
 var thatGuy = {
@@ -77,15 +78,17 @@ var thatGuy = {
 //STUDENT - How would you invoke the "showMyAddress" function using dot
 //      syntax?
 
+   thatGuy.showMyAddress();
+
 
 //STUDENT - console.log the street address and city using dot notation.
-
+    console.log(thatGuy.showMyAddress());
 
 // below is an object that contains an array of objects
-var obj1 = {
-	schoolName:'Full Sail',
-	address:'123 University Blvd',
-	studentCount:16000,
+    var obj1 = {
+        schoolName:'Full Sail',
+        address:'123 University Blvd',
+        studentCount:16000,
     //student is an array of objects
     students:[
 			{name:'Jane Doe', GPA:2.6, classes:['PWA1','ARD']},
@@ -95,7 +98,7 @@ var obj1 = {
 	};
 
 //STUDENT - how would you get the length of the students array?
-
+    console.log(obj1.students.length);
 
 /*
 	==============================================================
