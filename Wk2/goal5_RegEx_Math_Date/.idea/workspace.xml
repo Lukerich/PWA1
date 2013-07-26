@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="672510e8-6e85-47d5-a6fd-3b8caa636f57" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="goal5_RegEx_Math_Date.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../../Course Activities INSTRUCTOR/goal5_RegEx_Math_Date FINAL/index.html" changelist="672510e8-6e85-47d5-a6fd-3b8caa636f57" time="1372345795580" ignored="false" />
-    <file path="/Dummy.txt" changelist="672510e8-6e85-47d5-a6fd-3b8caa636f57" time="1374856727838" ignored="false" />
-    <file path="/script.js" changelist="672510e8-6e85-47d5-a6fd-3b8caa636f57" time="1374852925749" ignored="false" />
+    <file path="/Dummy.txt" changelist="672510e8-6e85-47d5-a6fd-3b8caa636f57" time="1374858975746" ignored="false" />
+    <file path="/script.js" changelist="672510e8-6e85-47d5-a6fd-3b8caa636f57" time="1374860138299" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
           <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="342" column="48" selection-start="10927" selection-end="10927" vertical-scroll-proportion="0.20212767">
+                <state line="392" column="86" selection-start="13210" selection-end="13210" vertical-scroll-proportion="0.54787236">
                   <folding />
                 </state>
               </provider>
@@ -216,7 +217,11 @@
       <created>1374856731531</created>
       <updated>1374856731531</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updates">
+      <created>1374858978715</created>
+      <updated>1374858978715</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -329,7 +334,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="342" column="48" selection-start="10927" selection-end="10927" vertical-scroll-proportion="0.20212767">
+        <state line="392" column="86" selection-start="13210" selection-end="13210" vertical-scroll-proportion="0.54787236">
           <folding />
         </state>
       </provider>
