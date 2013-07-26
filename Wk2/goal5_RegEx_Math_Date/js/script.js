@@ -378,14 +378,30 @@ STUDENT ACTIVITY
     var email = new RegExp(emailRegEx);
     var str = "My personal email is jc@google.com but my work email is jc@fullsail.com";
 
-    console.log(emailRegEx.exec(str));
-    console.log(emailRegEx.test(str));
-    console.log(str.search(emailRegEx));
-    var clean = str.replace(emailRegEx,"XXX@XXX.com");
+//    console.log(emailRegEx.exec(str));
+//    console.log(emailRegEx.test(str));
+//    console.log(str.search(emailRegEx));  //if not true then -1
+//    var clean = str.replace(emailRegEx,"XXX@XXX.com");
+//        console.log(clean);
+//    var clean = clean.replace(emailRegEx,"jc@gmail.com");
+//        console.log(clean);
+//    console.log(str.match(emailRegEx));
+
+    console.log(email.test(str));
+    console.log(str.search(email));
+    var clean = str.replace(email,"XXX@XXX.com");
         console.log(clean);
-    var clean = clean.replace(emailRegEx,"jc@gmail.com");
+    var clean = str.replace(/(\w[-._\w]*\w@\w[-._\w]*\w\.\w{2,3})/g,"XXX@XXX.com");     // global replace
+      console.log(clean);
+    var clean = clean.replace(email,"jc@gmail.com");
         console.log(clean);
-    console.log(str.match(emailRegEx));
+    var clean = clean.replace(/(\w[-._\w]*\w@\w[-._\w]*\w\.\w{2,3})/g,"jc@gmail.com");
+        console.log(clean);
+    console.log(str.match(email));  // injecting email variable returns array
+    /* ["jc@google.com" THIS IS SEARCH ITEM, "jc@google.com" THIS IS ITEM FOUND (ONLY ONE IF THERE HAD BEEN MORE THEY WOULD ALSO DISPLAY)
+    , index: 21, input: "My personal email is jc@google.com but my work email is jc@fullsail.com"]
+     */
+
 
 
 /* 
