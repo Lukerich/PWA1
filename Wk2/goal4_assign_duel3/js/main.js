@@ -38,21 +38,21 @@
                     var result = winnerCheck();
                     console.log('winner check ' + result);
 
-                    if (result==="no winner")
+                    if (result==="no winner"&& round<9)
                     {
                         console.log('in if');
                         round++;
                         console.log(round);
-                        var scrLks = document.querySelectorAll('#scores id');
-                        scrLks[0].innerHTML = ('p', players[0].name+':'+players[0].health);
-                        scrLks[1].innerHTML = ('p', players[1].name+':'+players[1].health);
+                        var scrLks = document.querySelectorAll('#scores p');
+                        scrLks[0].innerHTML = (players[0].name+':'+players[0].health);
+                        scrLks[1].innerHTML = (players[1].name+':'+players[1].health);
                         console.log('1st scrLks');
                     }else{
                         console.log('in else');
                         console.log(result);
-                        //var rltLks = document.querySelector('#scores');
-                        //console.log(rltLks);
-                        scores.innerHTML = result;
+                        var rltLks = document.querySelectorAll('scores.clear');
+                        console.log(rltLks);
+                        rltLks.innerHTML = result;
                     };
 
     };
