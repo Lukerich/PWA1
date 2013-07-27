@@ -435,7 +435,7 @@ STUDENT ACTIVITY
 	Write a RegEx for a phone number to match the following formats:
 	1.  Format: (123) 456-7890 | 123-456-7890
 
-		Answer:
+		Answer:      /
 
 	2.  Format: (573)8841878 | 573-884-1234 | 573 234 1256
 
