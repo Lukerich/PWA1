@@ -8,17 +8,19 @@
 
     myform.onsubmit = function(e){
 
-        var frmFld = document.querySelectorAll("#myform input");
-        console.log(frmFld[0].value);
-
-
+        var id = document.querySelectorAll('#myform input');
+          validateField(document.querySelectorAll('#myform input'));
+//        validateField(id[1].name);
+//        validateField(id[2].id);
+//        validateField(id[3].id);
+//        validateField(id[4].id);
 
         e.preventDefault();
         return false;
 
      };
     var validateField = function(inputName){
-
+         console.log(inputName);
         if (inputName.value === 'f_username'){
             var pattern = /([A-Z]{1}\w\s)\1\?[A-Z]{1}\w]/;
         }
@@ -36,7 +38,7 @@
         }
 
         var pass = pattern.test(inputName); // statement is needed here';
-        var errorMsg = inputName.nextSibling.nextSibling.nextSibling.nextSibling;
+        var errorMsg = inputName.nextSibling.nextSibling;
 
         if (!pass || inputName.value.length < 2){
             errorMsg.style.display='block';
