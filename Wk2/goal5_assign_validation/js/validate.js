@@ -11,7 +11,7 @@
         var id = document.getElementById('f_username');
 
         console.log(document.getElementById('f_username').value);
-
+        console.log(document.getElementById('f_username'));
         validateField(id);
 //        validateField(id[1].name);
 //        validateField(id[2].id);
@@ -24,7 +24,7 @@
      };
     var validateField = function(inputName){
          console.log(inputName);
-        if (inputName.value === 'f_username'){
+        if (inputName === 'f_username'){
             var pattern = /([A-Z]{1}\w\s)\1\?[A-Z]{1}\w]/;
             console.log(inputName.value);
         }
@@ -41,9 +41,9 @@
             var pattern = /^\d{3}-\d{2}-\d{4}$/;
         }
 
-        var pass = pattern.test(inputName); // statement is needed here';
+        var pass = pattern.test(inputName.value); // statement is needed here';
         console.log(pass);
-        var errorMsg = inputName.nextSibling.nextSibling;
+        var errorMsg = inputName.nextSibling.nextSibling.nextSibling.nextSibling;
         console.log(errorMsg);
 
         if (!pass || inputName.value.length < 2){
