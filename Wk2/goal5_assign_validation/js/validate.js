@@ -10,7 +10,7 @@
 
         var id = document.getElementById('f_username');
          console.log(id);
-        console.log(document.getElementById('f_username').value);
+        console.log(document.getElementById('f_username'));
         console.log(document.getElementById('f_username'));
         validateField(id);
 //        validateField(id[1].name);
@@ -23,7 +23,7 @@
 
      };
     var validateField = function(inputName){
-         console.log(inputName);
+         console.log(validateField);
         if (inputName == 'f_username'){
             var pattern = /([A-Z]{1}\w\s)\1\?[A-Z]{1}\w]/;
             console.log(inputName.value);
