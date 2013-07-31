@@ -8,36 +8,36 @@
 
     myform.onsubmit = function(e){
 
-        var id = document.getElementById('f_username');
-         console.log(id);
-        console.log(document.getElementById('f_username'));
-        console.log(document.getElementById('f_username'));
+        var id = document.getElementsByName('f_name input');
+        console.log(id);
+        //console.log(document.getElementById('f_username').value);
+        //console.log(document.getElementById('f_username'));
         validateField(id);
-//        validateField(id[1].name);
-//        validateField(id[2].id);
-//        validateField(id[3].id);
-//        validateField(id[4].id);
+        validateField(id);
+        validateField(id);
+        validateField(id);
+        validateField(id);
 
         e.preventDefault();
         return false;
 
      };
     var validateField = function(inputName){
-         console.log(validateField);
+         console.log(inputName);
         if (inputName == 'f_username'){
             var pattern = /([A-Z]{1}\w\s)\1\?[A-Z]{1}\w]/;
-            console.log(inputName.value);
+            console.log("in pattern" + inputName);
         }
-        if (inputName.value == 'f_email'){
+        if (inputName == 'f_email'){
             var pattern = /([a-zA-Z]{1}\w[-._\w]*\w@\w[-._\w]*\w\.\w{2,4})/;
         }
-        if (inputName.value === 'f_phone'){
+        if (inputName === 'f_phone'){
             var pattern = /((\(^[2-9]\d{2}-\))|(^[2-9]\d{2}-))\d{3}-\d{4}$/;
         }
-        if (inputName.value === 'f_password'){
+        if (inputName === 'f_password'){
             var pattern = /^[\w_]{4,15}$/;
         }
-        if (inputName.value === 'f_ssn'){
+        if (inputName === 'f_ssn'){
             var pattern = /^\d{3}-\d{2}-\d{4}$/;
         }
 
