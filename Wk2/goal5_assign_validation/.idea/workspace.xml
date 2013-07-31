@@ -4,8 +4,8 @@
     <list default="true" id="0aa5d34a-a7c2-4870-a85c-48c5edc7feff" name="Default" comment="" />
     <ignored path="goal5_assign_validation.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0aa5d34a-a7c2-4870-a85c-48c5edc7feff" time="1375233870261" ignored="false" />
-    <file path="/validate.js" changelist="0aa5d34a-a7c2-4870-a85c-48c5edc7feff" time="1375232962410" ignored="false" />
+    <file path="/Dummy.txt" changelist="0aa5d34a-a7c2-4870-a85c-48c5edc7feff" time="1375237421456" ignored="false" />
+    <file path="/validate.js" changelist="0aa5d34a-a7c2-4870-a85c-48c5edc7feff" time="1375237369851" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +30,7 @@
           <file leaf-file-name="validate.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/validate.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="75" selection-start="712" selection-end="712" vertical-scroll-proportion="0.4347826">
+                <state line="13" column="57" selection-start="304" selection-end="304" vertical-scroll-proportion="0.16722408">
                   <folding />
                 </state>
               </provider>
@@ -208,18 +208,22 @@
       <created>1375233874158</created>
       <updated>1375233874158</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updates">
+      <created>1375237424783</created>
+      <updated>1375237424783</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1863" y="3" width="1426" height="1058" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.117605135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.117605135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -326,7 +330,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/validate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="75" selection-start="712" selection-end="712" vertical-scroll-proportion="0.4347826">
+        <state line="13" column="57" selection-start="304" selection-end="304" vertical-scroll-proportion="0.16722408">
           <folding />
         </state>
       </provider>
