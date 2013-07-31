@@ -8,7 +8,7 @@
 
     myform.onsubmit = function(e){
 
-        var id = document.getElementsByName('f_name input');
+        var id = document.getElementsByName('f_username');
         console.log(id);
         //console.log(document.getElementById('f_username').value);
         //console.log(document.getElementById('f_username'));
