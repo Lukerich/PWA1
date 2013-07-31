@@ -8,8 +8,11 @@
 
     myform.onsubmit = function(e){
 
-        var id = document.querySelectorAll('#myform input');
-          validateField(document.querySelectorAll('#myform input'));
+        var id = document.getElementById('f_username');
+
+        console.log(document.getElementById('f_username').value);
+
+        validateField(id);
 //        validateField(id[1].name);
 //        validateField(id[2].id);
 //        validateField(id[3].id);
