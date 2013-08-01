@@ -94,7 +94,7 @@
                 this.toString = function(){
                     console.log((this.date.getMonth() +1) + "/" +
                         this.date.getDate() + "/" +
-                        this.date.getFullYear() + "</strong><br />" +
+                        this.date.getFullYear() + "]" +
                         this.body);
 
 
