@@ -106,7 +106,13 @@
                 }else{
                     blogText += "<p>";
                 }
-                blogText += "<strong>" + blog[i].date + "</strong><br/>" + blog[i].body + "</p>";
+
+                blogText += "<strong>" + (blog[i].date.getMonth() +1) + "/" +
+                    blog[i].date.getDate() + "/" +
+                    blog[i].date.getFullYear() + "</strong><br />" +
+                    blog[i].body + "</p>";
+
+                //blogText += "<strong>" + blog[i].date + "</strong><br/>" + blog[i].body + "</p>";
 
                 i++;
             }
