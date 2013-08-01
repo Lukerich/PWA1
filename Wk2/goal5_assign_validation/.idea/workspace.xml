@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aa5d34a-a7c2-4870-a85c-48c5edc7feff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/validate.js" afterPath="$PROJECT_DIR$/js/validate.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="goal5_assign_validation.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0aa5d34a-a7c2-4870-a85c-48c5edc7feff" time="1375309179495" ignored="false" />
+    <file path="/Dummy.txt" changelist="0aa5d34a-a7c2-4870-a85c-48c5edc7feff" time="1375323856590" ignored="false" />
     <file path="/validate.js" changelist="0aa5d34a-a7c2-4870-a85c-48c5edc7feff" time="1375313579103" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -231,7 +230,11 @@
       <created>1375309183333</created>
       <updated>1375309183333</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updates">
+      <created>1375323860784</created>
+      <updated>1375323860784</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
