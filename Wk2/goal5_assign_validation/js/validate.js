@@ -8,15 +8,20 @@
 
     myform.onsubmit = function(e){
 
-        var id = document.getElementsByName('f_username');
-        console.log(id);
+        var inputName = document.querySelector("#f_email");
+        console.log(inputName.name);
+        console.log(inputName.value);
+        console.log(inputName.nextSibling);
+        console.log(inputName.nextSibling.nextSibling);
+        console.log(inputName.nextSibling.nextSibling.nextSibling);
+        console.log(inputName.nextSibling.nextSibling.nextSibling.nextSibling);
         //console.log(document.getElementById('f_username').value);
         //console.log(document.getElementById('f_username'));
-        validateField(id);
-        validateField(id);
-        validateField(id);
-        validateField(id);
-        validateField(id);
+        validateField(inputName.name);
+//        validateField(id);
+//        validateField(id);
+//        validateField(id);
+//        validateField(id);
 
         e.preventDefault();
         return false;
@@ -24,20 +29,25 @@
      };
     var validateField = function(inputName){
          console.log(inputName);
-        if (inputName == 'f_username'){
+         console.log(inputName.value);
+        if (inputName == "f_username"){
             var pattern = /([A-Z]{1}\w\s)\1\?[A-Z]{1}\w]/;
-            console.log("in pattern" + inputName);
+            console.log("in pattern " + inputName);
         }
         if (inputName == 'f_email'){
+            console.log("in pattern " + inputName);
             var pattern = /([a-zA-Z]{1}\w[-._\w]*\w@\w[-._\w]*\w\.\w{2,4})/;
         }
         if (inputName === 'f_phone'){
+            console.log("in pattern " + inputName);
             var pattern = /((\(^[2-9]\d{2}-\))|(^[2-9]\d{2}-))\d{3}-\d{4}$/;
         }
         if (inputName === 'f_password'){
+            console.log("in pattern " + inputName);
             var pattern = /^[\w_]{4,15}$/;
         }
         if (inputName === 'f_ssn'){
+            console.log("in pattern " + inputName);
             var pattern = /^\d{3}-\d{2}-\d{4}$/;
         }
 
