@@ -77,23 +77,19 @@
 //        console.log("'str' is equal to:",str);
 //        console.log("'this.body' is equal to:", this.body);
 
+           this.toHTML = function(highlight){
 
+                var blogHTML = "";
 
-        if (i%2 === 0){
-            blogText += "<p style='background-color:#EEEEEE'>"; // gray background for every other blog entry
-        }else{
-            blogText += "<p>";
-        }
+                blogHTML += highlight? "<p style='background-color:#EEEEEE'> : "<p>";
 
-        blogText += "<strong>" + (blog[i].date.getMonth() +1) + "/" +
-            blog[i].date.getDate() + "/" +
-            blog[i].date.getFullYear() + "</strong><br />" +
-            blog[i].body + "</p>";
+                    blogHTML += "<strong>" + (this.date.getMonth() +1) + "/" +
+                        this.date.getDate() + "/" +
+                        this.date.getFullYear() + "</strong><br />" +
+                        this.body + "</p>";
 
-        //blogText += "<strong>" + blog[i].date + "</strong><br/>" + blog[i].body + "</p>";
-
-        i++;
-        }
+                return blogHTML;
+        };
 
 
 
@@ -118,6 +114,7 @@
 
             var i = 0,
                 blogText = "";
+
             while (i < blog.length){
 //                if (i%2 === 0){
 //                    blogText += "<p style='background-color:#EEEEEE'>"; // gray background for every other blog entry
@@ -132,7 +129,9 @@
 //
 //                //blogText += "<strong>" + blog[i].date + "</strong><br/>" + blog[i].body + "</p>";
 //
-//                i++;
+                    blogText += blog[i].toHTML(i % 2 === 0);
+
+                i++;
             }
 
             document.getElementById("blog").innerHTML = blogText;
