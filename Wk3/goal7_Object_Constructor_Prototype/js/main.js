@@ -85,12 +85,22 @@
 
                     blogHTML += "<strong>" + (this.date.getMonth() +1) + "/" +
                         this.date.getDate() + "/" +
-                        this.date.getFullYear() + "</strong><br />" +
+                        this.date.getFullYear() + "]" +
                         this.body + "</p>";
 
                 return blogHTML;
         };
 
+                this.toString = function(){
+                    console.log((this.date.getMonth() +1) + "/" +
+                        this.date.getDate() + "/" +
+                        this.date.getFullYear() + "</strong><br />" +
+                        this.body);
+
+
+                }
+
+};   // close constructor
 
 
 
@@ -129,12 +139,14 @@
 //
 //                //blogText += "<strong>" + blog[i].date + "</strong><br/>" + blog[i].body + "</p>";
 //
-                    blogText += blog[i].toHTML(i % 2 === 0);
-
+                                                               // passes argument to toHTML it accepts it as highlight  (a parameter)
+                                                               //
+                    blogText += blog[i].toHTML(i % 2 === 0);  // if remainder is 0 then it is true if it is not zero then it is false.
+                    blog[i].toString();
                 i++;
             }
 
-            document.getElementById("blog").innerHTML = blogText;
+            document.getElementById("blog").innerHTML = blogText;       // calling constructor or method with in a constructor
 
             e.preventDefault();
             return false;
