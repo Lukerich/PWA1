@@ -106,7 +106,6 @@
     // constructors have .prototype ie.. Person.prototype
     // Blog = constructor .prototype .companyName is new property of an object can be whole object
 
-
         Blog.prototype.companyName = "FulLSail";
 
 
@@ -133,20 +132,12 @@
                 this.body);
         };
 
-
-
-
-
-
-
-
     // array of blog items
     // each blog item will use the Blog constructor as its template to create each
     //    object
 
     // manually create an object using the Blog constructor to establish the objects
     //      structure and display all the information in the body of the HTML
-
 
                                    //We use the lines of var blog to create objects and instanuiate an object
                                     // it uses a Constructor to create objects for us. (when we run the new blog that is when the object are created
