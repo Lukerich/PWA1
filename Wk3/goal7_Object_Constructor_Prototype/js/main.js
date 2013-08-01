@@ -110,11 +110,9 @@
         Blog.prototype.companyName = "FulLSail";
 
 
-    blog.prototype.toHTML = function(){
+    Blog.prototype.toHTML = function(highlight){
 
-        this.toHTML = function(highlight){        //Two functions that are now methods
-
-            var blogHTML = "";         //method
+            var blogHTML = "";
 
             blogHTML += highlight? "<p style='background-color:#EEEEEE'>" : "<p>";
 
@@ -126,19 +124,14 @@
             return blogHTML;
         };
 
-    };
 
+    Blog.prototype.toString = function(){
 
-    blog.prototype.toString = function(){
-
-        this.toString = function(){         //method
             console.log("[" + (this.date.getMonth() +1) + "/" +
                 this.date.getDate() + "/" +
                 this.date.getFullYear() + "]" +
                 this.body);
-        }
-
-    };
+        };
 
 
 
