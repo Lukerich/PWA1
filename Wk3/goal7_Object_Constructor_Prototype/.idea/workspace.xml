@@ -7,7 +7,7 @@
     </list>
     <ignored path="goal7_Object_Constructor_Prototype.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="20d8a5a6-3219-43ac-ac50-1346c9d2723b" time="1375386382048" ignored="false" />
+    <file path="/Dummy.txt" changelist="20d8a5a6-3219-43ac-ac50-1346c9d2723b" time="1375386514173" ignored="false" />
     <file path="/main.js" changelist="20d8a5a6-3219-43ac-ac50-1346c9d2723b" time="1375386501779" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,10 +33,10 @@
           <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="87" column="65" selection-start="3947" selection-end="3947" vertical-scroll-proportion="0.3990755">
+                <state line="99" column="62" selection-start="4302" selection-end="4302" vertical-scroll-proportion="0.46841294">
                   <folding>
-                    <marker date="1375386509000" expanded="true" signature="3713:3737" placeholder="..." />
-                    <marker date="1375386509000" expanded="true" signature="5398:5422" placeholder="..." />
+                    <marker date="1375391100000" expanded="true" signature="3713:3737" placeholder="..." />
+                    <marker date="1375391100000" expanded="true" signature="5398:5422" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -256,7 +256,11 @@
       <created>1375386384910</created>
       <updated>1375386384910</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="updates">
+      <created>1375386517369</created>
+      <updated>1375386517369</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -348,8 +352,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="87" column="53" selection-start="3825" selection-end="3825" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1375386509000" expanded="true" signature="3713:3737" placeholder="..." />
-            <marker date="1375386509000" expanded="true" signature="5398:5422" placeholder="..." />
+            <marker date="1375391100000" expanded="true" signature="3713:3737" placeholder="..." />
+            <marker date="1375391100000" expanded="true" signature="5398:5422" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -358,8 +362,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1375386509000" expanded="true" signature="3713:3737" placeholder="..." />
-            <marker date="1375386509000" expanded="true" signature="5398:5422" placeholder="..." />
+            <marker date="1375391100000" expanded="true" signature="3713:3737" placeholder="..." />
+            <marker date="1375391100000" expanded="true" signature="5398:5422" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -380,10 +384,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="65" selection-start="3947" selection-end="3947" vertical-scroll-proportion="0.3990755">
+        <state line="99" column="62" selection-start="4302" selection-end="4302" vertical-scroll-proportion="0.46841294">
           <folding>
-            <marker date="1375386509000" expanded="true" signature="3713:3737" placeholder="..." />
-            <marker date="1375386509000" expanded="true" signature="5398:5422" placeholder="..." />
+            <marker date="1375391100000" expanded="true" signature="3713:3737" placeholder="..." />
+            <marker date="1375391100000" expanded="true" signature="5398:5422" placeholder="..." />
           </folding>
         </state>
       </provider>
