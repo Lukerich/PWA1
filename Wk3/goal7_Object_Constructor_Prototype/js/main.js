@@ -81,7 +81,7 @@
 
                 var blogHTML = "";
 
-                blogHTML += highlight? "<p style='background-color:#EEEEEE'> : "<p>";
+                blogHTML += highlight? "<p style='background-color:#EEEEEE'>" : "<p>";
 
                     blogHTML += "<strong>" + (this.date.getMonth() +1) + "/" +
                         this.date.getDate() + "/" +
