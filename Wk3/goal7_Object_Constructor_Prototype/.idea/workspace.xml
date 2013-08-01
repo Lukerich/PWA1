@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20d8a5a6-3219-43ac-ac50-1346c9d2723b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="20d8a5a6-3219-43ac-ac50-1346c9d2723b" name="Default" comment="" />
     <ignored path="goal7_Object_Constructor_Prototype.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="20d8a5a6-3219-43ac-ac50-1346c9d2723b" time="1375391101837" ignored="false" />
-    <file path="/main.js" changelist="20d8a5a6-3219-43ac-ac50-1346c9d2723b" time="1375386501779" ignored="false" />
+    <file path="/Dummy.txt" changelist="20d8a5a6-3219-43ac-ac50-1346c9d2723b" time="1375395198975" ignored="false" />
+    <file path="/main.js" changelist="20d8a5a6-3219-43ac-ac50-1346c9d2723b" time="1375393470503" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="20d8a5a6-3219-43ac-ac50-1346c9d2723b" time="1375395208472" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +31,10 @@
           <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="99" column="62" selection-start="4302" selection-end="4302" vertical-scroll-proportion="0.46841294">
+                <state line="70" column="65" selection-start="3390" selection-end="3390" vertical-scroll-proportion="0.26040062">
                   <folding>
-                    <marker date="1375391100000" expanded="true" signature="3713:3737" placeholder="..." />
-                    <marker date="1375391100000" expanded="true" signature="5398:5422" placeholder="..." />
+                    <marker date="1375395191000" expanded="true" signature="3894:3918" placeholder="..." />
+                    <marker date="1375395191000" expanded="true" signature="5900:5924" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -48,7 +47,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="37" column="67" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.3344">
+                <state line="37" column="67" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.256">
                   <folding />
                 </state>
               </provider>
@@ -263,7 +262,11 @@
       <created>1375391105281</created>
       <updated>1375391105281</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="updates">
+      <created>1375395204184</created>
+      <updated>1375395204184</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -355,8 +358,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="87" column="53" selection-start="3825" selection-end="3825" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1375391100000" expanded="true" signature="3713:3737" placeholder="..." />
-            <marker date="1375391100000" expanded="true" signature="5398:5422" placeholder="..." />
+            <marker date="1375395191000" expanded="true" signature="3894:3918" placeholder="..." />
+            <marker date="1375395191000" expanded="true" signature="5900:5924" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -365,8 +368,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1375391100000" expanded="true" signature="3713:3737" placeholder="..." />
-            <marker date="1375391100000" expanded="true" signature="5398:5422" placeholder="..." />
+            <marker date="1375395191000" expanded="true" signature="3894:3918" placeholder="..." />
+            <marker date="1375395191000" expanded="true" signature="5900:5924" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -380,17 +383,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="67" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.3344">
+        <state line="37" column="67" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.256">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="62" selection-start="4302" selection-end="4302" vertical-scroll-proportion="0.46841294">
+        <state line="70" column="65" selection-start="3390" selection-end="3390" vertical-scroll-proportion="0.26040062">
           <folding>
-            <marker date="1375391100000" expanded="true" signature="3713:3737" placeholder="..." />
-            <marker date="1375391100000" expanded="true" signature="5398:5422" placeholder="..." />
+            <marker date="1375395191000" expanded="true" signature="3894:3918" placeholder="..." />
+            <marker date="1375395191000" expanded="true" signature="5900:5924" placeholder="..." />
           </folding>
         </state>
       </provider>
