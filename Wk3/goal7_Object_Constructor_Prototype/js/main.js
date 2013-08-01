@@ -68,18 +68,21 @@
         local variable within the constructor
  -----------------------------------------------------------------------
  */
+             // create prototype to point to code for object data
+
+    // This is our Constructor
      var Blog = function(str, date){
       //var LOL = "funny";
       //console.log(this);
-        this.body = str;
+        this.body = str;     // two properties
         this.date = date;
 
 //        console.log("'str' is equal to:",str);
 //        console.log("'this.body' is equal to:", this.body);
 
-           this.toHTML = function(highlight){
+           this.toHTML = function(highlight){        //Two functions that are now methods
 
-                var blogHTML = "";
+                var blogHTML = "";         //method
 
                 blogHTML += highlight? "<p style='background-color:#EEEEEE'>" : "<p>";
 
@@ -91,18 +94,16 @@
                 return blogHTML;
         };
 
-                this.toString = function(){
+                this.toString = function(){         //method
                     console.log("[" + (this.date.getMonth() +1) + "/" +
                         this.date.getDate() + "/" +
                         this.date.getFullYear() + "]" +
                         this.body);
-
-
                 }
 
 };   // close constructor
 
-
+        Blog.prototype.companyName = "FulLSail";
 
     // array of blog items
     // each blog item will use the Blog constructor as its template to create each
@@ -112,7 +113,8 @@
     //      structure and display all the information in the body of the HTML
 
 
-
+                                   //We use the lines of var blog to create objects and instanuiate an object
+                                    // it uses a Constructor to create objects for us. (when we run the new blog that is when the object are created
         var blog = [
             new Blog('Learned about functions, and how to pass parameters into them.', new Date('04/2/2013')),
             new Blog('Learned about objects, and how to set keys and get values.', new Date('04/15/2013')),
@@ -145,6 +147,12 @@
                     blog[i].toString();
                 i++;
             }
+
+            //var tmpName = blog[0].companyName = "Full Sail";
+            console.log(blog[0].companyName);
+            console.log(blog[1].companyName);
+            console.log(blog[2].companyName);
+            console.log(blog[3].companyName);
 
             document.getElementById("blog").innerHTML = blogText;       // calling constructor or method with in a constructor
 
