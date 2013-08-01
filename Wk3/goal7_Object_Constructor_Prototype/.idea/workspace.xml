@@ -6,7 +6,8 @@
     </list>
     <ignored path="goal7_Object_Constructor_Prototype.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="20d8a5a6-3219-43ac-ac50-1346c9d2723b" time="1375354414415" ignored="false" />
+    <file path="/Dummy.txt" changelist="20d8a5a6-3219-43ac-ac50-1346c9d2723b" time="1375366841170" ignored="false" />
+    <file path="/main.js" changelist="20d8a5a6-3219-43ac-ac50-1346c9d2723b" time="1375366685465" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +29,13 @@
     <splitter split-orientation="horizontal" split-proportion="0.5563607">
       <split-first>
         <leaf>
-          <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                <state line="100" column="78" selection-start="4457" selection-end="4457" vertical-scroll-proportion="0.42218798">
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
+                    <marker date="1375366686000" expanded="true" signature="4601:4625" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -43,10 +45,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                <state line="42" column="28" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.744">
                   <folding />
                 </state>
               </provider>
@@ -67,6 +69,13 @@
   <component name="GitLogSettings">
     <option name="myDateState">
       <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/js/main.js" />
+      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -204,7 +213,11 @@
       <created>1375354415607</created>
       <updated>1375354415607</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updates">
+      <created>1375366845414</created>
+      <updated>1375366845414</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -297,6 +310,7 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <marker date="1375366686000" expanded="true" signature="4601:4625" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -310,16 +324,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="42" column="28" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.744">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="100" column="78" selection-start="4457" selection-end="4457" vertical-scroll-proportion="0.42218798">
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <marker date="1375366686000" expanded="true" signature="4601:4625" placeholder="..." />
           </folding>
         </state>
       </provider>
