@@ -6,7 +6,7 @@
     </list>
     <ignored path="goal7_Object_Constructor_Prototype.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="20d8a5a6-3219-43ac-ac50-1346c9d2723b" time="1375373533762" ignored="false" />
+    <file path="/Dummy.txt" changelist="20d8a5a6-3219-43ac-ac50-1346c9d2723b" time="1375373556835" ignored="false" />
     <file path="/main.js" changelist="20d8a5a6-3219-43ac-ac50-1346c9d2723b" time="1375366685465" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -225,7 +225,11 @@
       <created>1375373553978</created>
       <updated>1375373553978</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updates">
+      <created>1375373558061</created>
+      <updated>1375373558061</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
