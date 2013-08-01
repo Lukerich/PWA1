@@ -68,7 +68,8 @@
         local variable within the constructor
  -----------------------------------------------------------------------
  */
-             // create prototype to point to code for object data
+             // create prototype (object that is inherited when constructors are created)
+             // to point to code for object data
 
     // This is our Constructor
      var Blog = function(str, date){
@@ -80,30 +81,71 @@
 //        console.log("'str' is equal to:",str);
 //        console.log("'this.body' is equal to:", this.body);
 
-           this.toHTML = function(highlight){        //Two functions that are now methods
+//           this.toHTML = function(highlight){        //Two functions that are now methods
+//
+//                var blogHTML = "";         //method
+//
+//                blogHTML += highlight? "<p style='background-color:#EEEEEE'>" : "<p>";
+//
+//                    blogHTML += "<strong>" + (this.date.getMonth() +1) + "/" +
+//                        this.date.getDate() + "/" +
+//                        this.date.getFullYear() + "</strong><br/>" +
+//                        this.body + "</p>";
+//
+//                return blogHTML;
+//        };
 
-                var blogHTML = "";         //method
-
-                blogHTML += highlight? "<p style='background-color:#EEEEEE'>" : "<p>";
-
-                    blogHTML += "<strong>" + (this.date.getMonth() +1) + "/" +
-                        this.date.getDate() + "/" +
-                        this.date.getFullYear() + "</strong><br/>" +
-                        this.body + "</p>";
-
-                return blogHTML;
-        };
-
-                this.toString = function(){         //method
-                    console.log("[" + (this.date.getMonth() +1) + "/" +
-                        this.date.getDate() + "/" +
-                        this.date.getFullYear() + "]" +
-                        this.body);
-                }
+//                this.toString = function(){         //method
+//                    console.log("[" + (this.date.getMonth() +1) + "/" +
+//                        this.date.getDate() + "/" +
+//                        this.date.getFullYear() + "]" +
+//                        this.body);
+//                }
 
 };   // close constructor
+    // constructors have .prototype ie.. Person.prototype
+    // Blog = constructor .prototype .companyName is new property of an object can be whole object
+
 
         Blog.prototype.companyName = "FulLSail";
+
+
+    blog.prototype.toHTML = function(){
+
+        this.toHTML = function(highlight){        //Two functions that are now methods
+
+            var blogHTML = "";         //method
+
+            blogHTML += highlight? "<p style='background-color:#EEEEEE'>" : "<p>";
+
+            blogHTML += "<strong>" + (this.date.getMonth() +1) + "/" +
+                this.date.getDate() + "/" +
+                this.date.getFullYear() + "</strong><br/>" +
+                this.body + "</p>";
+
+            return blogHTML;
+        };
+
+    };
+
+
+    blog.prototype.toString = function(){
+
+        this.toString = function(){         //method
+            console.log("[" + (this.date.getMonth() +1) + "/" +
+                this.date.getDate() + "/" +
+                this.date.getFullYear() + "]" +
+                this.body);
+        }
+
+    };
+
+
+
+
+
+
+
 
     // array of blog items
     // each blog item will use the Blog constructor as its template to create each
