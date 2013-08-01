@@ -85,14 +85,14 @@
 
                     blogHTML += "<strong>" + (this.date.getMonth() +1) + "/" +
                         this.date.getDate() + "/" +
-                        this.date.getFullYear() + "]" +
+                        this.date.getFullYear() + "</strong><br/>" +
                         this.body + "</p>";
 
                 return blogHTML;
         };
 
                 this.toString = function(){
-                    console.log((this.date.getMonth() +1) + "/" +
+                    console.log(("[" + this.date.getMonth() +1) + "/" +
                         this.date.getDate() + "/" +
                         this.date.getFullYear() + "]" +
                         this.body);
