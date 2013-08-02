@@ -169,7 +169,7 @@ console.log("start canvas");
             3.  Do the above with only 3 lines of code.
         -------------------------------------*/
 
-    ctx.rect(100,75,200,50);
+    ctx.rect(100,100,200,50);
 
     ctx.fill();
 
@@ -204,20 +204,32 @@ console.log("start canvas");
 
             //1. Declare that we are about to draw a new path or resets a current path
 
+    ctx.beginPath()
+
             //2. Define the fill style in RGB
 
+    ctx.fillStyle = "rgb(0,0,255)";
+
             //3. Style the stroke color (black) and stroke size
+
+    ctx.lineWidth = 8;
+    ctx.strokeStyle = "#000000";
 
             //4. Defines the arc at x= 300, y= 100(center point), and the radius
             //      of 40 staring angle and ending angle.
             //  The arc is nothing more than a section of the circumference of an
             //      imaginary circle.
 
+    //ctx.arc(300,100,40,0,2*Math.PI);
+    ctx.arc(200,300,40,0,2*Math.PI);
+
             //5. Renders (draws) the line to the canvas
+
+    ctx.stroke();
 
             //6. Fill the Circle with what is defined in 2.
 
-
+    ctx.fill();
         /*****************************************
              STUDENT ACTIVITY 4:
              - Position the circle (AKA "the ball"), right below the "Red Cross"
@@ -247,21 +259,30 @@ console.log("start canvas");
         -------------------------------------*/
 
             //1. Declare that we are about to draw a new path or resets a current path
+    ctx.beginPath();
 
             //2. Style the stroke color (orange) and stroke size to 3px
+    ctx.lineWidth = 3;
+    ctx.strokeStyle = "orange";
 
-            //3. Define the starting point of line 1
+            //3. Define the starting point of line 1  starting 300 down and 275 pixels from the left
+     ctx.moveTo(300,275);
 
-            //4. Define the end point of line 1
+            //4. Define the end point of line 1  from Starting point over to 50 to left/x axis to right 50 down/long y axis
+    ctx.lineTo(350,325);
 
-            //5. Define the end point of line 2
+            //5. Define the end point of line 2  sitting at bottom left minus 50 to left of starting point from starting point and down same as y axis at 325
+    ctx.lineTo(250,325);
 
-            //6. Define the end point of line 3. back to where we started
+            //6. Define the end point of line 3. back to where we started  down from starting point
+    ctx.lineTo(300,275);
 
             //7. Render the triangle
+    ctx.stroke();
 
             //8. Fill the Triangle
-
+    ctx.fillStyle = "#0ABFFF";
+    ctx.fill();
 
     /*==================================================
         Creates and Draws an image
