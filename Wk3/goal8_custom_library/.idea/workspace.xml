@@ -6,7 +6,7 @@
     </list>
     <ignored path="goal8_custom_library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375416665411" ignored="false" />
+    <file path="/Dummy.txt" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375416669345" ignored="false" />
     <file path="/index.html" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375412897550" ignored="false" />
     <file path="/main.js" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375414469378" ignored="false" />
     <file path="/wizard.js" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375416518287" ignored="false" />
@@ -257,7 +257,11 @@
       <created>1375416667276</created>
       <updated>1375416667276</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updates">
+      <created>1375416670837</created>
+      <updated>1375416670837</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
