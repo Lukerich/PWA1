@@ -269,10 +269,12 @@ console.log("start canvas");
      ctx.moveTo(300,275);
 
             //4. Define the end point of line 1  from Starting point over to 50 to left/x axis to right 50 down/long y axis
-    ctx.lineTo(350,325);
-
+    //ctx.lineTo(350,325);
+    ctx.lineTo(350,600);
+                         // same angle
             //5. Define the end point of line 2  sitting at bottom left minus 50 to left of starting point from starting point and down same as y axis at 325
-    ctx.lineTo(250,325);
+    //ctx.lineTo(250,325);
+    ctx.lineTo(250,600);
 
             //6. Define the end point of line 3. back to where we started  down from starting point
     ctx.lineTo(300,275);
