@@ -7,12 +7,24 @@ var Arena = function(options){
 
 };
 
-Aerna.prototype = {
+Arena.prototype = {
 
-    figthers: [],
+    fighters: [],
 
     register: function(fighter){
         this.fighters.push(fighter);
+        console.log(fighter.name + ' has joined the  ' + this.name + '!!');
+    },
+
+    fight: function(){
+
+        var f1 = Math.floor(Math.random()*this.fighters.length);
+        var f2 = Math.floor(Math.random()*this.fighters.length);
+
+        while(f1 === f2){
+            f2 = Math.floor(Math.random()*this.fighters.length);
+        }
+
     }
 };
 
