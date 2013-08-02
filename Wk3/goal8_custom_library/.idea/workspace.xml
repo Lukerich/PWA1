@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65000731-00bf-408c-9793-c1542bdae09a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/arena.js" afterPath="$PROJECT_DIR$/js/arena.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="goal8_custom_library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375414791293" ignored="false" />
+    <file path="/Dummy.txt" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375415356623" ignored="false" />
     <file path="/index.html" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375412897550" ignored="false" />
     <file path="/main.js" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375414469378" ignored="false" />
     <file path="/wizard.js" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375414077808" ignored="false" />
@@ -242,7 +241,11 @@
       <created>1375414794949</created>
       <updated>1375414794949</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updates">
+      <created>1375415358161</created>
+      <updated>1375415358161</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
