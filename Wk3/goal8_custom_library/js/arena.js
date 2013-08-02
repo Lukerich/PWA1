@@ -23,7 +23,16 @@ Arena.prototype = {
 
         while(f1 === f2){
             f2 = Math.floor(Math.random()*this.fighters.length);
-        }
+        };
+
+        var fighter1 = this.fighters[1];
+        var fighter2 = this.fighters[2];
+
+        var loser = fighter1.strength > fighter2.strength ? fighter2 : fighter1;
+
+        loser.die();
+
+
 
     }
 };
