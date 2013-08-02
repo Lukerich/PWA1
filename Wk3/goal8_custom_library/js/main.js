@@ -17,19 +17,19 @@
 	/*  Create wizards from the Wizard factory
 	    ==================================================*/
 
-    var gandolf = Wizard({
+    var gandolf = new Wizard({
         name: "Gandolf the Grey",
         power: "fire",
         strength: 20
     });
 
-    var dementor = Wizard({
+    var dementor = new Wizard({
         name: "Dementor",
         power: "ice",
         strength: 15
     });
 
-    var merlin = Wizard({
+    var merlin = new Wizard({
         name: "Merlin",
         power: "earth",
         strength: 30
@@ -37,7 +37,11 @@
 
     /*  Create an Arena to fight in!
         ==================================================*/
+    var thunderDome = new Arena({
+        name: 'The Thunder Dome',
+        location: 'Skyrim'
 
+    });
 
 })();
 

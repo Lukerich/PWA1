@@ -8,10 +8,10 @@
     </list>
     <ignored path="goal8_custom_library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375412941203" ignored="false" />
+    <file path="/Dummy.txt" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375413648514" ignored="false" />
     <file path="/index.html" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375412897550" ignored="false" />
-    <file path="/main.js" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375413412641" ignored="false" />
-    <file path="/wizard.js" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375413624407" ignored="false" />
+    <file path="/main.js" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375414279739" ignored="false" />
+    <file path="/wizard.js" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375414077808" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +33,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.45865303">
       <split-first>
         <leaf>
-          <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="0" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
+                <state line="42" column="25" selection-start="914" selection-end="914" vertical-scroll-proportion="0.7960725">
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -44,10 +44,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="wizard.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="wizard.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/wizard.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="64" selection-start="140" selection-end="140" vertical-scroll-proportion="0.3851964">
+                <state line="11" column="49" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -89,8 +89,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/wizard.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -220,7 +220,11 @@
       <created>1375412943473</created>
       <updated>1375412943473</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updates">
+      <created>1375413651969</created>
+      <updated>1375413651969</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -322,18 +326,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/js/wizard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
+        <state line="11" column="49" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/wizard.js">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="64" selection-start="140" selection-end="140" vertical-scroll-proportion="0.3851964">
+        <state line="42" column="25" selection-start="914" selection-end="914" vertical-scroll-proportion="0.7960725">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
