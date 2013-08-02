@@ -71,9 +71,9 @@
              // create prototype (object that is inherited when constructors are created)
              // to point to code for object data
 
-    // This is our Constructor
+    // This is our Constructor  and methods
      var Blog = function(str, date){
-      //var LOL = "funny";
+      //var LOL = "funny";                   // local variables in constructor do not work in prototype
       //console.log(this);
         this.body = str;     // two properties
         this.date = date;
@@ -105,8 +105,9 @@
 };   // close constructor
     // constructors have .prototype ie.. Person.prototype
     // Blog = constructor .prototype .companyName is new property of an object can be whole object
+    //Prototypes:
 
-        Blog.prototype.companyName = "FulLSail";
+    Blog.prototype.companyName = "FulLSail";
 
 
     Blog.prototype.toHTML = function(highlight){
@@ -122,7 +123,6 @@
 
             return blogHTML;
         };
-
 
     Blog.prototype.toString = function(){
 
