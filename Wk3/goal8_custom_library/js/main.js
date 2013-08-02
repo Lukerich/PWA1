@@ -43,6 +43,12 @@
 
     });
 
+    thunderDome.register(gandolf);
+    thunderDome.register(dementor);
+    thunderDome.register(merlin);
+
+    thunderDome.fight();
+
 })();
 
 

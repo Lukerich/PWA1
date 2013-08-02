@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65000731-00bf-408c-9793-c1542bdae09a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/arena.js" afterPath="$PROJECT_DIR$/js/arena.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/wizard.js" afterPath="$PROJECT_DIR$/js/wizard.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="goal8_custom_library.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375413648514" ignored="false" />
+    <file path="/Dummy.txt" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375414291090" ignored="false" />
     <file path="/index.html" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375412897550" ignored="false" />
-    <file path="/main.js" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375414279739" ignored="false" />
+    <file path="/main.js" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375414469378" ignored="false" />
     <file path="/wizard.js" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375414077808" ignored="false" />
+    <file path="/arena.js" changelist="65000731-00bf-408c-9793-c1542bdae09a" time="1375414762800" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +34,22 @@
     <splitter split-orientation="horizontal" split-proportion="0.45865303">
       <split-first>
         <leaf>
-          <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="42" column="25" selection-start="914" selection-end="914" vertical-scroll-proportion="0.7960725">
+                <state line="49" column="24" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="arena.js" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/arena.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="2" selection-start="163" selection-end="163" vertical-scroll-proportion="0.29456192">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -91,6 +101,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/wizard.js" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/arena.js" />
       </list>
     </option>
   </component>
@@ -224,7 +235,11 @@
       <created>1375413651969</created>
       <updated>1375413651969</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updates">
+      <created>1375414295140</created>
+      <updated>1375414295140</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -337,10 +352,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="25" selection-start="914" selection-end="914" vertical-scroll-proportion="0.7960725">
+        <state line="49" column="24" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/arena.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="2" selection-start="163" selection-end="163" vertical-scroll-proportion="0.29456192">
+          <folding />
         </state>
       </provider>
     </entry>
