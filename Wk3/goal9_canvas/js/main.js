@@ -32,7 +32,7 @@ console.log("start canvas");
 
     ctx.fillText('PWA1 / Goal 9 Basic Canvas', 10, 50);
 
-//*****************************************************************************
+/*****************************************************************************
 
 
 /******************************************************************************
@@ -57,7 +57,7 @@ console.log("start canvas");
     canvas.height = 400;
     canvas.style = "border:1px solid #000000";
 
-    //-------------------------------------------------------------------
+/*    //-------------------------------------------------------------------
 
         /*****************************************
          STUDENT ACTIVITY 1:
@@ -67,7 +67,8 @@ console.log("start canvas");
          2.  Create text and display "Hello World".
          3.  The text should be 25px, Georgia (font).
          4.  Place the text below the header created above.
-         -------------------------------------*/
+         -------------------------------------
+*/
         ctx.font = '25px Georgia';
 
         ctx.fillText('Hello World', 15, 25);
@@ -132,7 +133,7 @@ console.log("start canvas");
             sized with width and height parameters.  The rectangle is positioned
             about its top left corner.
     --------------------------------------------------------------------*/
-
+/*
             //1. Declare that we are about to draw a new path or resets a current path
 
     ctx.beginPath();
@@ -168,13 +169,13 @@ console.log("start canvas");
             2.  Create another rectangle that when it is drawn, creates a "Red Cross".
             3.  Do the above with only 3 lines of code.
         -------------------------------------*/
-
+/*
     ctx.rect(100,100,200,50);
 
     ctx.fill();
 
     ctx.stroke();
-
+*/
     /* ================================================
          Draw a "Circle" and fill it with color on the Canvas
 
@@ -203,7 +204,7 @@ console.log("start canvas");
     -------------------------------------------------------------------*/
 
             //1. Declare that we are about to draw a new path or resets a current path
-
+/*
     ctx.beginPath()
 
             //2. Define the fill style in RGB
@@ -230,6 +231,7 @@ console.log("start canvas");
             //6. Fill the Circle with what is defined in 2.
 
     ctx.fill();
+*/
         /*****************************************
              STUDENT ACTIVITY 4:
              - Position the circle (AKA "the ball"), right below the "Red Cross"
@@ -257,7 +259,7 @@ console.log("start canvas");
                 5.  Fill the Triangle with color.
 
         -------------------------------------*/
-
+/*
             //1. Declare that we are about to draw a new path or resets a current path
     ctx.beginPath();
 
@@ -270,11 +272,13 @@ console.log("start canvas");
 
             //4. Define the end point of line 1  from Starting point over to 50 to left/x axis to right 50 down/long y axis
     //ctx.lineTo(350,325);
-    ctx.lineTo(350,600);
+    //ctx.lineTo(350,600);
+    ctx.lineTo(450,600);
                          // same angle
             //5. Define the end point of line 2  sitting at bottom left minus 50 to left of starting point from starting point and down same as y axis at 325
     //ctx.lineTo(250,325);
-    ctx.lineTo(250,600);
+    //ctx.lineTo(250,600);
+    ctx.lineTo(50,600);
 
             //6. Define the end point of line 3. back to where we started  down from starting point
     ctx.lineTo(300,275);
@@ -284,7 +288,8 @@ console.log("start canvas");
 
             //8. Fill the Triangle
     ctx.fillStyle = "#0ABFFF";
-    ctx.fill();
+    ctx.fill();   */
+
 
     /*==================================================
         Creates and Draws an image
@@ -307,20 +312,27 @@ console.log("start canvas");
                 *   context.drawImage(img,x,y,width,height);
 
         URL for demo:
-        "http://chart.apis.google.com/chart?cht=qr&chs=300x300&chl=www.fullsail.com&chld=H|0";
+     "http://chart.apis.google.com/chart?cht=qr&chs=300x300&chl=www.fullsail.com&chld=H|0";
         -------------------------------------------------------------------*/
-
-          //1. create new image container
-
-            //2. url for the the QR image
-
-            //3. create an image and wait for it to load before instantiating drawImage().
-
+//    ctx.clearRect(0,0,400,400)
+//          //1. create new image container
+//    var qr = new Image();
+//
+//
+//            //2. url for the the QR image
+//    qr.src = "http://chart.apis.google.com/chart?cht=qr&chs=300x300&chl=www.fullsail.com&chld=H|0";
+//
+//            //3. create an image and wait for it to load before instantiating drawImage().
+//    qr.addEventListener('load', function(){
+//       ctx.drawImage(qr,50,50,275,275)                   // x,y sizetop left corner of image to top left of canvas
+//
+//
+//    }, false);
 
    /*================================================
         Erase the Canvas
    --------------------------------------------------------------------*/
-
+    ///ctx.clearRect(0,0,400,400)
 
    /*================================================
         Draw 500 random colored lines
@@ -331,8 +343,18 @@ console.log("start canvas");
             - Draw 500 random colored lines
 
             1.  Use all the items you have learned up to this point to draw the 500
-                colored lines.
+                colored lines.     "rgb(0,0,255)";
        -------------------------------------*/
+
+    for (var i = 1; i < 500; i++){
+         ctx.beginPath();
+            color = 'rgb('+ Math.floor(Math.random()*255) + ',' + Math.floor(Math.random()*255) + ',' + Math.floor(Math.random()*255) + ')';
+            ctx.strokeStyle = color; // assigning color to
+            ctx.lineWidth = 3;
+            ctx.moveTo(Math.random()*400,Math.random()*400);
+            ctx.lineTo(Math.random()*400,Math.random()*400);
+            ctx.stroke();
+    }
 
 
 })();
