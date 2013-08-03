@@ -23,17 +23,24 @@
             console.log(f_password.value);
             console.log(f_ssn.value);
 
-//        validateField(id);
-//        validateField(id);
-//        validateField(id);
-//        validateField(id);
+            console.log(f_username.name);
+            console.log(f_email.name);
+            console.log(f_phone.name);
+            console.log(f_password.name);
+            console.log(f_ssn.name);
+
+        validateField(f_username.name);
+//        validateField(f_email.name);
+//        validateField(f_phone.name);
+//        validateField(f_password.name);
+//        validateField(f_ssn.name);
 
         e.preventDefault();
         return false;
 
      };
     var validateField = function(inputName){
-         console.log(inputName);
+         console.log(inputName.name);
          console.log(inputName.value);
         if (inputName == "f_username"){
             var pattern = /([A-Z]{1}\w\s)\1\?[A-Z]{1}\w]/;
@@ -57,7 +64,10 @@
         }
 
         var pass = pattern.test(inputName.value); // statement is needed here';
-        console.log(pass);
+        if (pass == true){
+            console.log(pass);
+        }else{
+
         var errorMsg = inputName.nextSibling.nextSibling.nextSibling.nextSibling;
         console.log(errorMsg);
 
@@ -71,7 +81,7 @@
             errorMsg.style.display='none';
             inputName.style.backgroundColor = 'white';
         }
-
+        }
     };
 
     button.onclick = myForm;
