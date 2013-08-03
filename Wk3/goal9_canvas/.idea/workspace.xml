@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4b66080-eab6-4dbc-a547-90eea1b23ecb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d4b66080-eab6-4dbc-a547-90eea1b23ecb" name="Default" comment="" />
     <ignored path="goal9_canvas.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="d4b66080-eab6-4dbc-a547-90eea1b23ecb" time="1375469561659" ignored="false" />
