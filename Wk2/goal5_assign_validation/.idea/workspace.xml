@@ -4,7 +4,7 @@
     <list default="true" id="0aa5d34a-a7c2-4870-a85c-48c5edc7feff" name="Default" comment="" />
     <ignored path="goal5_assign_validation.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0aa5d34a-a7c2-4870-a85c-48c5edc7feff" time="1375547989751" ignored="false" />
+    <file path="/Dummy.txt" changelist="0aa5d34a-a7c2-4870-a85c-48c5edc7feff" time="1375548034465" ignored="false" />
     <file path="/validate.js" changelist="0aa5d34a-a7c2-4870-a85c-48c5edc7feff" time="1375547725253" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="0aa5d34a-a7c2-4870-a85c-48c5edc7feff" time="1375323881756" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,10 +28,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5070422">
       <split-first>
         <leaf>
-          <file leaf-file-name="validate.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="validate.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/validate.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="54" column="72" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.9368259">
+                <state line="54" column="72" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.2718894">
                   <folding />
                 </state>
               </provider>
@@ -41,10 +41,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="65" column="67" selection-start="2753" selection-end="2763" vertical-scroll-proportion="0.5264">
+                <state line="65" column="67" selection-start="2753" selection-end="2763" vertical-scroll-proportion="0.103668265">
                   <folding />
                 </state>
               </provider>
@@ -76,7 +76,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="91" />
+    <option name="x" value="45" />
     <option name="y" value="22" />
     <option name="width" value="1395" />
     <option name="height" value="810" />
@@ -149,8 +149,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -242,14 +242,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="91" y="22" width="1395" height="810" extended-state="0" />
-    <editor active="true" />
+    <frame x="45" y="22" width="1395" height="810" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12317784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12317784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -259,6 +258,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -328,6 +328,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/validate.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="72" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/validate.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="70" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -370,14 +384,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="67" selection-start="2753" selection-end="2763" vertical-scroll-proportion="0.5264">
+        <state line="65" column="67" selection-start="2753" selection-end="2763" vertical-scroll-proportion="0.103668265">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/validate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="72" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.9368259">
+        <state line="54" column="72" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.2718894">
           <folding />
         </state>
       </provider>
