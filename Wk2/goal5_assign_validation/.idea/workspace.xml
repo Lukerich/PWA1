@@ -4,8 +4,8 @@
     <list default="true" id="0aa5d34a-a7c2-4870-a85c-48c5edc7feff" name="Default" comment="" />
     <ignored path="goal5_assign_validation.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0aa5d34a-a7c2-4870-a85c-48c5edc7feff" time="1375549557543" ignored="false" />
-    <file path="/validate.js" changelist="0aa5d34a-a7c2-4870-a85c-48c5edc7feff" time="1375549016388" ignored="false" />
+    <file path="/Dummy.txt" changelist="0aa5d34a-a7c2-4870-a85c-48c5edc7feff" time="1375576127669" ignored="false" />
+    <file path="/validate.js" changelist="0aa5d34a-a7c2-4870-a85c-48c5edc7feff" time="1375574383589" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="0aa5d34a-a7c2-4870-a85c-48c5edc7feff" time="1375549557246" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,34 +25,19 @@
     <favorites_list name="goal5_assign_validation" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5070422">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="validate.js" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/validate.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="68" selection-start="662" selection-end="662" vertical-scroll-proportion="0.055469953">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="65" column="67" selection-start="2753" selection-end="2763" vertical-scroll-proportion="0.104">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="validate.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/validate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="102" selection-start="79" selection-end="79" vertical-scroll-proportion="0.09063444">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -149,8 +134,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -242,7 +227,11 @@
       <created>1375549564211</created>
       <updated>1375549564211</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="updates">
+      <created>1375576131441</created>
+      <updated>1375576131441</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -332,8 +321,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/validate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="72" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="22" column="68" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -347,7 +338,25 @@
     <entry file="file://$PROJECT_DIR$/js/validate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="72" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="72" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -361,7 +370,9 @@
     <entry file="file://$PROJECT_DIR$/js/validate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="70" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -375,14 +386,18 @@
     <entry file="file://$PROJECT_DIR$/js/validate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="76" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/validate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="67" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -396,21 +411,25 @@
     <entry file="file://$PROJECT_DIR$/js/validate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="67" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="67" selection-start="2753" selection-end="2763" vertical-scroll-proportion="0.104">
+        <state line="71" column="71" selection-start="3194" selection-end="3194" vertical-scroll-proportion="0.24720894">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/validate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="68" selection-start="662" selection-end="662" vertical-scroll-proportion="0.055469953">
-          <folding />
+        <state line="4" column="102" selection-start="79" selection-end="79" vertical-scroll-proportion="0.09063444">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
