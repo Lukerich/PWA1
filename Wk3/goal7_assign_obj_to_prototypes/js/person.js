@@ -1,5 +1,5 @@
 /**
- * Created by the JavaScript Development Team
- * Class: PWA
- * Goal: Goal7
+ * Richard Luke
+ * 8/5/13
+ * Goal: Goal7 Advanced Objects
  */
