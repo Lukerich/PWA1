@@ -11,11 +11,12 @@
 (function (){
 
     console.log('Start function');
-    var buT = document.querySelectorAll("button");
+    var buT = document.querySelector("button");
     console.log(buT);
     var cliKs = 0;
     console.log(cliKs);
-    buT.onclick = function(){
+
+    buT.onclick = function(e){
 
         console.log("in function");
 
@@ -44,9 +45,9 @@
 
     function gmOv(){
         console.log("in gmOv");
-        var inBt = document.querySelectorAll('button guess');       // variable to assign button
+        var inBt = document.querySelector("button");       // variable to assign button
         inBt.innerHTML = ("DONE!!!");                            // assign DONE!!!
-        document.onclick = function() {return false;};           //DOM to disable button
+        document.querySelector("button").disabled=true;           //DOM to disable button
     }
 
     function clKs(){                                             // click function
