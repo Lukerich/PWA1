@@ -15,23 +15,23 @@
     console.log(buT);
     var cliKs = 0;
     console.log(cliKs);
+    var magNum = Math.floor(Math.random() * 10 + 1);
+    console.log(magNum);
 
     buT.onclick = function(e){
 
         console.log("in function");
 
-        var inPut = document.getElementById('input');
+        var inPut = document.getElementById('input').value;
             console.log(inPut);
-        var magNum = Math.floor(Math.random() * 10);
-            console.log(magNum);
 
-        if (cliKs < 2){
+        if (cliKs < 3){
             if (inPut < magNum){
-                console.log("To Low");
+                document.getElementById("output").innerHTML = ("To Low");
             } else if (inPut > magNum){
-                console.log("To High");
-            }else if (inPut === magNum){
-                console.log("You Win!!");
+                document.getElementById("output").innerHTML = ("To High");
+            }else if (inPut == magNum){
+                document.getElementById("output").innerHTML = ("You Win!!!");
                 gmOv();
             }                                            // If statement for clicks
         clKs();                                            //  calling clKs function
