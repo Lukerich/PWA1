@@ -4,9 +4,9 @@
     <list default="true" id="e7c813db-818c-4d7a-858a-d749a32832df" name="Default" comment="" />
     <ignored path="goal4_assign_guessing.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e7c813db-818c-4d7a-858a-d749a32832df" time="1375665038608" ignored="false" />
-    <file path="/main.js" changelist="e7c813db-818c-4d7a-858a-d749a32832df" time="1375664723445" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="e7c813db-818c-4d7a-858a-d749a32832df" time="1375665037992" ignored="false" />
+    <file path="/Dummy.txt" changelist="e7c813db-818c-4d7a-858a-d749a32832df" time="1375665715810" ignored="false" />
+    <file path="/main.js" changelist="e7c813db-818c-4d7a-858a-d749a32832df" time="1375665553992" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="e7c813db-818c-4d7a-858a-d749a32832df" time="1375665715495" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
           <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="31" selection-start="223" selection-end="223" vertical-scroll-proportion="0.3466872">
+                <state line="33" column="24" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.6764253">
                   <folding />
                 </state>
               </provider>
@@ -204,7 +204,11 @@
       <created>1375665040354</created>
       <updated>1375665040354</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updates">
+      <created>1375665717352</created>
+      <updated>1375665717352</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -337,7 +341,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="31" selection-start="223" selection-end="223" vertical-scroll-proportion="0.3466872">
+        <state line="33" column="24" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.6764253">
           <folding />
         </state>
       </provider>
