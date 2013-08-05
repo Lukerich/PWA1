@@ -13,7 +13,6 @@
     var buT = document.querySelector("button");
 
     var cliKs = 0;
-    console.log(cliKs);
 
     var magNum = Math.floor(Math.random() * 10 + 1);
     console.log(magNum);
@@ -31,7 +30,7 @@
                 document.getElementById("output").innerHTML = ("You Win!!!");
                 gmOv();                                   // call game over function
             }                                            // If statement for clicks
-        clKs();                                            //  calling clKs function
+            cliKs++;                                            //  adding to click count
         }else{                                                     //else to end display and disable button
          gmOv();
         }
@@ -44,10 +43,6 @@
         var inBt = document.querySelector("button");       // variable to assign button
         inBt.innerHTML = ("DONE!!!");                            // assign DONE!!!
         document.querySelector("button").disabled=true;           //DOM to disable button
-    }
-
-    function clKs(){                                             // click function
-        document.querySelectorAll("button").value = ++cliKs;     // getElementById to add up clicks
     }
 
 })();
