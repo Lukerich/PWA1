@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4138b9d-fa4a-426f-937c-772f593c94b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/person.js" afterPath="$PROJECT_DIR$/js/person.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="object_instantiate.iws" />
@@ -11,7 +9,7 @@
     <file path="/object_instantiate.html" changelist="a4138b9d-fa4a-426f-937c-772f593c94b1" time="1366546467875" ignored="false" />
     <file path="/main.js" changelist="a4138b9d-fa4a-426f-937c-772f593c94b1" time="1375670794827" ignored="false" />
     <file path="/person.js" changelist="a4138b9d-fa4a-426f-937c-772f593c94b1" time="1375670308827" ignored="false" />
-    <file path="/Dummy.txt" changelist="a4138b9d-fa4a-426f-937c-772f593c94b1" time="1375670189532" ignored="false" />
+    <file path="/Dummy.txt" changelist="a4138b9d-fa4a-426f-937c-772f593c94b1" time="1375671067400" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +208,11 @@
       <created>1375670191489</created>
       <updated>1375670191489</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updates">
+      <created>1375671071648</created>
+      <updated>1375671071648</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
